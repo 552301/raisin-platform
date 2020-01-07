@@ -1,0 +1,5 @@
+org.springframework.context.ApplicationContextInitializer=\
+com.raisin.log.config.TtlMDCAdapterInitializer
+
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.raisin.log.config.LogAutoConfigure
