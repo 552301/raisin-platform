@@ -1,0 +1,10 @@
+server:
+  port: 9093
+
+spring:
+  application:
+    name: account-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 172.16.19.116:8848
