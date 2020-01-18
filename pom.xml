@@ -23,7 +23,7 @@
         <druid-starter>1.1.10</druid-starter>
         <jasypt.version>1.14</jasypt.version>
         <sharding-sphere.version>3.1.0</sharding-sphere.version>
-        <security-oauth2.version>2.4.0.RELEASE</security-oauth2.version>
+        <security-oauth2.version>2.3.5.RELEASE</security-oauth2.version>
         <security-jwt.version>1.0.9.RELEASE</security-jwt.version>
         <redisson.version>3.9.1</redisson.version>
         <easyCaptcha.version>1.6.2</easyCaptcha.version>
@@ -57,7 +57,6 @@
         <docker.image.prefix>hub.raisin.com:8080/microservices-platform</docker.image.prefix>
         <docker.java.security.egd>-Djava.security.egd=file:/dev/./urandom</docker.java.security.egd>
         <docker.java.opts>-Xms128m -Xmx128m</docker.java.opts>
-        <logstash-logback-encoder.version>5.2</logstash-logback-encoder.version>
     </properties>
 
     <dependencies>

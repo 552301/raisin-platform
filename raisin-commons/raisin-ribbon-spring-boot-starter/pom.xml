@@ -23,12 +23,15 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
+<<<<<<< HEAD
             <exclusions>
                 <exclusion>
                     <artifactId>guava</artifactId>
                     <groupId>com.google.guava</groupId>
                 </exclusion>
             </exclusions>
+=======
+>>>>>>> 529bcc4a449c3690e6ab3fd504ac38460d7fabf8
         </dependency>
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
