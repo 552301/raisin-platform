@@ -1,0 +1,212 @@
+[[1;34mINFO[m] Scanning for projects...
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/boot/spring-boot-dependencies/3.2.3/spring-boot-dependencies-3.2.3.pom
+Progress (1): 4.1/111 kBProgress (1): 8.2/111 kBProgress (1): 12/111 kB Progress (1): 16/111 kBProgress (1): 20/111 kBProgress (1): 25/111 kBProgress (1): 29/111 kBProgress (1): 33/111 kBProgress (1): 37/111 kBProgress (1): 41/111 kBProgress (1): 45/111 kBProgress (1): 49/111 kBProgress (1): 53/111 kBProgress (1): 57/111 kBProgress (1): 61/111 kBProgress (1): 66/111 kBProgress (1): 70/111 kBProgress (1): 74/111 kBProgress (1): 78/111 kBProgress (1): 82/111 kBProgress (1): 86/111 kBProgress (1): 90/111 kBProgress (1): 94/111 kBProgress (1): 98/111 kBProgress (1): 102/111 kBProgress (1): 106/111 kBProgress (1): 111/111 kBProgress (1): 111 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/boot/spring-boot-dependencies/3.2.3/spring-boot-dependencies-3.2.3.pom (111 kB at 134 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/assertj/assertj-bom/3.24.2/assertj-bom-3.24.2.pom
+Progress (1): 3.7 kB                    Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/assertj/assertj-bom/3.24.2/assertj-bom-3.24.2.pom (3.7 kB at 174 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/io/zipkin/brave/brave-bom/5.16.0/brave-bom-5.16.0.pom
+Progress (1): 4.1/12 kBProgress (1): 8.2/12 kBProgress (1): 12 kB                       Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/io/zipkin/brave/brave-bom/5.16.0/brave-bom-5.16.0.pom (12 kB at 486 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/io/zipkin/reporter2/zipkin-reporter-bom/2.16.3/zipkin-reporter-bom-2.16.3.pom
+Progress (1): 4.1/6.9 kBProgress (1): 6.9 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/io/zipkin/reporter2/zipkin-reporter-bom/2.16.3/zipkin-reporter-bom-2.16.3.pom (6.9 kB at 344 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/com/datastax/oss/java-driver-bom/4.17.0/java-driver-bom-4.17.0.pom
+Progress (1): 4.1/4.1 kBProgress (1): 4.1 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/com/datastax/oss/java-driver-bom/4.17.0/java-driver-bom-4.17.0.pom (4.1 kB at 173 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/io/dropwizard/metrics/metrics-bom/4.2.25/metrics-bom-4.2.25.pom
+Progress (1): 4.1/8.2 kBProgress (1): 8.2/8.2 kBProgress (1): 8.2 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/io/dropwizard/metrics/metrics-bom/4.2.25/metrics-bom-4.2.25.pom (8.2 kB at 357 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/io/dropwizard/metrics/metrics-parent/4.2.25/metrics-parent-4.2.25.pom
+Progress (1): 4.1/21 kBProgress (1): 7.3/21 kBProgress (1): 11/21 kB Progress (1): 15/21 kBProgress (1): 20/21 kBProgress (1): 21 kB                      Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/io/dropwizard/metrics/metrics-parent/4.2.25/metrics-parent-4.2.25.pom (21 kB at 899 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/glassfish/jaxb/jaxb-bom/4.0.4/jaxb-bom-4.0.4.pom
+Progress (1): 4.1/12 kBProgress (1): 8.2/12 kBProgress (1): 12 kB                       Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/glassfish/jaxb/jaxb-bom/4.0.4/jaxb-bom-4.0.4.pom (12 kB at 567 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/eclipse/ee4j/project/1.0.8/project-1.0.8.pom
+Progress (1): 4.1/15 kBProgress (1): 8.2/15 kBProgress (1): 12/15 kB Progress (1): 15 kB                      Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/eclipse/ee4j/project/1.0.8/project-1.0.8.pom (15 kB at 663 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/apache/groovy/groovy-bom/4.0.18/groovy-bom-4.0.18.pom
+Progress (1): 3.4/27 kBProgress (1): 7.5/27 kBProgress (1): 12/27 kB Progress (1): 16/27 kBProgress (1): 20/27 kBProgress (1): 24/27 kBProgress (1): 27 kB                      Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/apache/groovy/groovy-bom/4.0.18/groovy-bom-4.0.18.pom (27 kB at 1.1 MB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/infinispan/infinispan-bom/14.0.24.Final/infinispan-bom-14.0.24.Final.pom
+Progress (1): 4.1/24 kBProgress (1): 7.3/24 kBProgress (1): 11/24 kB Progress (1): 15/24 kBProgress (1): 19/24 kBProgress (1): 23/24 kBProgress (1): 24 kB                      Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/infinispan/infinispan-bom/14.0.24.Final/infinispan-bom-14.0.24.Final.pom (24 kB at 729 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/infinispan/infinispan-build-configuration-parent/14.0.24.Final/infinispan-build-configuration-parent-14.0.24.Final.pom
+Progress (1): 4.1/24 kBProgress (1): 8.2/24 kBProgress (1): 12/24 kB Progress (1): 16/24 kBProgress (1): 20/24 kBProgress (1): 24 kB                      Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/infinispan/infinispan-build-configuration-parent/14.0.24.Final/infinispan-build-configuration-parent-14.0.24.Final.pom (24 kB at 16 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/jboss/jboss-parent/39/jboss-parent-39.pom
+Progress (1): 3.4/68 kBProgress (1): 6.3/68 kBProgress (1): 10/68 kB Progress (1): 14/68 kBProgress (1): 19/68 kBProgress (1): 23/68 kBProgress (1): 27/68 kBProgress (1): 31/68 kBProgress (1): 35/68 kBProgress (1): 38/68 kBProgress (1): 41/68 kBProgress (1): 45/68 kBProgress (1): 50/68 kBProgress (1): 54/68 kBProgress (1): 58/68 kBProgress (1): 62/68 kBProgress (1): 66/68 kBProgress (1): 68 kB                      Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/jboss/jboss-parent/39/jboss-parent-39.pom (68 kB at 2.4 MB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/com/fasterxml/jackson/jackson-bom/2.15.4/jackson-bom-2.15.4.pom
+Progress (1): 4.1/18 kBProgress (1): 7.3/18 kBProgress (1): 11/18 kB Progress (1): 15/18 kBProgress (1): 18 kB                      Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/com/fasterxml/jackson/jackson-bom/2.15.4/jackson-bom-2.15.4.pom (18 kB at 750 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/com/fasterxml/jackson/jackson-parent/2.15/jackson-parent-2.15.pom
+Progress (1): 4.1/6.5 kBProgress (1): 6.5 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/com/fasterxml/jackson/jackson-parent/2.15/jackson-parent-2.15.pom (6.5 kB at 272 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/com/fasterxml/oss-parent/50/oss-parent-50.pom
+Progress (1): 4.1/24 kBProgress (1): 7.3/24 kBProgress (1): 11/24 kB Progress (1): 15/24 kBProgress (1): 19/24 kBProgress (1): 23/24 kBProgress (1): 24 kB                      Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/com/fasterxml/oss-parent/50/oss-parent-50.pom (24 kB at 1.5 MB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/glassfish/jersey/jersey-bom/3.1.5/jersey-bom-3.1.5.pom
+Progress (1): 4.1/21 kBProgress (1): 7.3/21 kBProgress (1): 11/21 kB Progress (1): 16/21 kBProgress (1): 20/21 kBProgress (1): 21 kB                      Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/glassfish/jersey/jersey-bom/3.1.5/jersey-bom-3.1.5.pom (21 kB at 1.1 MB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/eclipse/jetty/ee10/jetty-ee10-bom/12.0.6/jetty-ee10-bom-12.0.6.pom
+Progress (1): 4.1/9.2 kBProgress (1): 7.3/9.2 kBProgress (1): 9.2 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/eclipse/jetty/ee10/jetty-ee10-bom/12.0.6/jetty-ee10-bom-12.0.6.pom (9.2 kB at 6.6 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/eclipse/jetty/jetty-bom/12.0.6/jetty-bom-12.0.6.pom
+Progress (1): 3.4/14 kBProgress (1): 7.5/14 kBProgress (1): 12/14 kB Progress (1): 14 kB                      Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/eclipse/jetty/jetty-bom/12.0.6/jetty-bom-12.0.6.pom (14 kB at 11 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/junit/junit-bom/5.10.2/junit-bom-5.10.2.pom
+Progress (1): 4.1/5.6 kBProgress (1): 5.6 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/junit/junit-bom/5.10.2/junit-bom-5.10.2.pom (5.6 kB at 282 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/jetbrains/kotlin/kotlin-bom/1.9.22/kotlin-bom-1.9.22.pom
+Progress (1): 4.1/9.1 kBProgress (1): 6.3/9.1 kBProgress (1): 9.1 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/jetbrains/kotlin/kotlin-bom/1.9.22/kotlin-bom-1.9.22.pom (9.1 kB at 434 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.7.3/kotlinx-coroutines-bom-1.7.3.pom
+Progress (1): 4.1/4.3 kBProgress (1): 4.3 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.7.3/kotlinx-coroutines-bom-1.7.3.pom (4.3 kB at 187 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/jetbrains/kotlinx/kotlinx-serialization-bom/1.6.3/kotlinx-serialization-bom-1.6.3.pom
+Progress (1): 3.7 kB                    Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/jetbrains/kotlinx/kotlinx-serialization-bom/1.6.3/kotlinx-serialization-bom-1.6.3.pom (3.7 kB at 193 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/apache/logging/log4j/log4j-bom/2.21.1/log4j-bom-2.21.1.pom
+Progress (1): 4.1/12 kBProgress (1): 8.2/12 kBProgress (1): 12/12 kB Progress (1): 12 kB                      Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/apache/logging/log4j/log4j-bom/2.21.1/log4j-bom-2.21.1.pom (12 kB at 655 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/apache/logging/logging-parent/10.1.1/logging-parent-10.1.1.pom
+Progress (1): 4.1/39 kBProgress (1): 7.3/39 kBProgress (1): 11/39 kB Progress (1): 16/39 kBProgress (1): 20/39 kBProgress (1): 24/39 kBProgress (1): 28/39 kBProgress (1): 32/39 kBProgress (1): 36/39 kBProgress (1): 39 kB                      Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/apache/logging/logging-parent/10.1.1/logging-parent-10.1.1.pom (39 kB at 1.8 MB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/apache/apache/30/apache-30.pom
+Progress (1): 4.1/23 kBProgress (1): 7.3/23 kBProgress (1): 11/23 kB Progress (1): 15/23 kBProgress (1): 20/23 kBProgress (1): 23 kB                      Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/apache/apache/30/apache-30.pom (23 kB at 930 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/io/micrometer/micrometer-bom/1.12.3/micrometer-bom-1.12.3.pom
+Progress (1): 4.1/7.9 kBProgress (1): 7.9 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/io/micrometer/micrometer-bom/1.12.3/micrometer-bom-1.12.3.pom (7.9 kB at 5.9 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/io/micrometer/micrometer-tracing-bom/1.2.3/micrometer-tracing-bom-1.2.3.pom
+Progress (1): 4.1/4.7 kBProgress (1): 4.7 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/io/micrometer/micrometer-tracing-bom/1.2.3/micrometer-tracing-bom-1.2.3.pom (4.7 kB at 212 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/mockito/mockito-bom/5.7.0/mockito-bom-5.7.0.pom
+Progress (1): 3.0 kB                    Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/mockito/mockito-bom/5.7.0/mockito-bom-5.7.0.pom (3.0 kB at 148 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/io/netty/netty-bom/4.1.107.Final/netty-bom-4.1.107.Final.pom
+Progress (1): 4.1/14 kBProgress (1): 8.2/14 kBProgress (1): 12/14 kB Progress (1): 14 kB                      Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/io/netty/netty-bom/4.1.107.Final/netty-bom-4.1.107.Final.pom (14 kB at 723 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/com/squareup/okhttp3/okhttp-bom/4.12.0/okhttp-bom-4.12.0.pom
+Progress (1): 3.1 kB                    Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/com/squareup/okhttp3/okhttp-bom/4.12.0/okhttp-bom-4.12.0.pom (3.1 kB at 153 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/io/opentelemetry/opentelemetry-bom/1.31.0/opentelemetry-bom-1.31.0.pom
+Progress (1): 4.1/7.0 kBProgress (1): 7.0 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/io/opentelemetry/opentelemetry-bom/1.31.0/opentelemetry-bom-1.31.0.pom (7.0 kB at 367 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/com/oracle/database/jdbc/ojdbc-bom/21.9.0.0/ojdbc-bom-21.9.0.0.pom
+Progress (1): 4.1/13 kBProgress (1): 8.2/13 kBProgress (1): 12/13 kB Progress (1): 13 kB                      Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/com/oracle/database/jdbc/ojdbc-bom/21.9.0.0/ojdbc-bom-21.9.0.0.pom (13 kB at 632 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/io/prometheus/simpleclient_bom/0.16.0/simpleclient_bom-0.16.0.pom
+Progress (1): 4.1/6.0 kBProgress (1): 6.0 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/io/prometheus/simpleclient_bom/0.16.0/simpleclient_bom-0.16.0.pom (6.0 kB at 317 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/io/prometheus/parent/0.16.0/parent-0.16.0.pom
+Progress (1): 4.1/13 kBProgress (1): 8.2/13 kBProgress (1): 12/13 kB Progress (1): 13 kB                      Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/io/prometheus/parent/0.16.0/parent-0.16.0.pom (13 kB at 659 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/com/querydsl/querydsl-bom/5.0.0/querydsl-bom-5.0.0.pom
+Progress (1): 4.1/7.2 kBProgress (1): 7.2 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/com/querydsl/querydsl-bom/5.0.0/querydsl-bom-5.0.0.pom (7.2 kB at 377 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/io/projectreactor/reactor-bom/2023.0.3/reactor-bom-2023.0.3.pom
+Progress (1): 4.1/4.8 kBProgress (1): 4.8 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/io/projectreactor/reactor-bom/2023.0.3/reactor-bom-2023.0.3.pom (4.8 kB at 165 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/io/rest-assured/rest-assured-bom/5.3.2/rest-assured-bom-5.3.2.pom
+Progress (1): 4.1/4.3 kBProgress (1): 4.3 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/io/rest-assured/rest-assured-bom/5.3.2/rest-assured-bom-5.3.2.pom (4.3 kB at 266 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/io/rsocket/rsocket-bom/1.1.3/rsocket-bom-1.1.3.pom
+Progress (1): 2.6 kB                    Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/io/rsocket/rsocket-bom/1.1.3/rsocket-bom-1.1.3.pom (2.6 kB at 165 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/seleniumhq/selenium/selenium-bom/4.14.1/selenium-bom-4.14.1.pom
+Progress (1): 4.1/6.0 kBProgress (1): 6.0 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/seleniumhq/selenium/selenium-bom/4.14.1/selenium-bom-4.14.1.pom (6.0 kB at 377 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/amqp/spring-amqp-bom/3.1.2/spring-amqp-bom-3.1.2.pom
+Progress (1): 3.9 kB                    Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/amqp/spring-amqp-bom/3.1.2/spring-amqp-bom-3.1.2.pom (3.9 kB at 228 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/batch/spring-batch-bom/5.1.1/spring-batch-bom-5.1.1.pom
+Progress (1): 3.2 kB                    Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/batch/spring-batch-bom/5.1.1/spring-batch-bom-5.1.1.pom (3.2 kB at 180 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/data/spring-data-bom/2023.1.3/spring-data-bom-2023.1.3.pom
+Progress (1): 4.1/5.5 kBProgress (1): 5.5 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/data/spring-data-bom/2023.1.3/spring-data-bom-2023.1.3.pom (5.5 kB at 4.1 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/spring-framework-bom/6.1.4/spring-framework-bom-6.1.4.pom
+Progress (1): 4.1/5.8 kBProgress (1): 5.8 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/spring-framework-bom/6.1.4/spring-framework-bom-6.1.4.pom (5.8 kB at 290 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/integration/spring-integration-bom/6.2.2/spring-integration-bom-6.2.2.pom
+Progress (1): 4.1/10 kBProgress (1): 7.3/10 kBProgress (1): 10 kB                       Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/integration/spring-integration-bom/6.2.2/spring-integration-bom-6.2.2.pom (10 kB at 8.0 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/pulsar/spring-pulsar-bom/1.0.3/spring-pulsar-bom-1.0.3.pom
+Progress (1): 2.7 kB                    Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/pulsar/spring-pulsar-bom/1.0.3/spring-pulsar-bom-1.0.3.pom (2.7 kB at 2.1 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/restdocs/spring-restdocs-bom/3.0.1/spring-restdocs-bom-3.0.1.pom
+Progress (1): 2.6 kB                    Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/restdocs/spring-restdocs-bom/3.0.1/spring-restdocs-bom-3.0.1.pom (2.6 kB at 129 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/security/spring-security-bom/6.2.2/spring-security-bom-6.2.2.pom
+Progress (1): 4.1/5.3 kBProgress (1): 5.3 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/security/spring-security-bom/6.2.2/spring-security-bom-6.2.2.pom (5.3 kB at 3.5 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/session/spring-session-bom/3.2.1/spring-session-bom-3.2.1.pom
+Progress (1): 2.9 kB                    Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/session/spring-session-bom/3.2.1/spring-session-bom-3.2.1.pom (2.9 kB at 152 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/ws/spring-ws-bom/4.0.10/spring-ws-bom-4.0.10.pom
+Progress (1): 3.5 kB                    Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/ws/spring-ws-bom/4.0.10/spring-ws-bom-4.0.10.pom (3.5 kB at 81 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/testcontainers/testcontainers-bom/1.19.5/testcontainers-bom-1.19.5.pom
+Progress (1): 4.1/9.1 kBProgress (1): 8.2/9.1 kBProgress (1): 9.1 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/testcontainers/testcontainers-bom/1.19.5/testcontainers-bom-1.19.5.pom (9.1 kB at 481 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/cloud/spring-cloud-dependencies/2023.0.0/spring-cloud-dependencies-2023.0.0.pom
+Progress (1): 4.1/10 kBProgress (1): 8.2/10 kBProgress (1): 10 kB                       Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/cloud/spring-cloud-dependencies/2023.0.0/spring-cloud-dependencies-2023.0.0.pom (10 kB at 468 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/cloud/spring-cloud-dependencies-parent/4.1.0/spring-cloud-dependencies-parent-4.1.0.pom
+Progress (1): 4.1/8.1 kBProgress (1): 8.1 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/cloud/spring-cloud-dependencies-parent/4.1.0/spring-cloud-dependencies-parent-4.1.0.pom (8.1 kB at 404 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/cloud/spring-cloud-commons-dependencies/4.1.0/spring-cloud-commons-dependencies-4.1.0.pom
+Progress (1): 3.4/7.2 kBProgress (1): 7.2 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/cloud/spring-cloud-commons-dependencies/4.1.0/spring-cloud-commons-dependencies-4.1.0.pom (7.2 kB at 301 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/cloud/spring-cloud-netflix-dependencies/4.1.0/spring-cloud-netflix-dependencies-4.1.0.pom
+Progress (1): 4.1/9.8 kBProgress (1): 8.2/9.8 kBProgress (1): 9.8 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/cloud/spring-cloud-netflix-dependencies/4.1.0/spring-cloud-netflix-dependencies-4.1.0.pom (9.8 kB at 271 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/cloud/spring-cloud-stream-dependencies/4.1.0/spring-cloud-stream-dependencies-4.1.0.pom
+Progress (1): 4.1/8.6 kBProgress (1): 7.3/8.6 kBProgress (1): 8.6 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/cloud/spring-cloud-stream-dependencies/4.1.0/spring-cloud-stream-dependencies-4.1.0.pom (8.6 kB at 356 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/cloud/spring-cloud-task-dependencies/3.1.0/spring-cloud-task-dependencies-3.1.0.pom
+Progress (1): 4.1/5.8 kBProgress (1): 5.8 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/cloud/spring-cloud-task-dependencies/3.1.0/spring-cloud-task-dependencies-3.1.0.pom (5.8 kB at 263 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/cloud/spring-cloud-circuitbreaker-dependencies/3.1.0/spring-cloud-circuitbreaker-dependencies-3.1.0.pom
+Progress (1): 4.1/6.7 kBProgress (1): 6.7 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/cloud/spring-cloud-circuitbreaker-dependencies/3.1.0/spring-cloud-circuitbreaker-dependencies-3.1.0.pom (6.7 kB at 305 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/io/github/resilience4j/resilience4j-bom/2.1.0/resilience4j-bom-2.1.0.pom
+Progress (1): 3.4/6.4 kBProgress (1): 6.4 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/io/github/resilience4j/resilience4j-bom/2.1.0/resilience4j-bom-2.1.0.pom (6.4 kB at 320 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/cloud/spring-cloud-config-dependencies/4.1.0/spring-cloud-config-dependencies-4.1.0.pom
+Progress (1): 4.1/7.5 kBProgress (1): 7.5 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/cloud/spring-cloud-config-dependencies/4.1.0/spring-cloud-config-dependencies-4.1.0.pom (7.5 kB at 312 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/cloud/spring-cloud-function-dependencies/4.1.0/spring-cloud-function-dependencies-4.1.0.pom
+Progress (1): 4.1/6.8 kBProgress (1): 6.8 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/cloud/spring-cloud-function-dependencies/4.1.0/spring-cloud-function-dependencies-4.1.0.pom (6.8 kB at 323 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/cloud/spring-cloud-gateway-dependencies/4.1.0/spring-cloud-gateway-dependencies-4.1.0.pom
+Progress (1): 4.1/6.4 kBProgress (1): 6.4 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/cloud/spring-cloud-gateway-dependencies/4.1.0/spring-cloud-gateway-dependencies-4.1.0.pom (6.4 kB at 320 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/cloud/spring-cloud-consul-dependencies/4.1.0/spring-cloud-consul-dependencies-4.1.0.pom
+Progress (1): 4.1/7.5 kBProgress (1): 7.3/7.5 kBProgress (1): 7.5 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/cloud/spring-cloud-consul-dependencies/4.1.0/spring-cloud-consul-dependencies-4.1.0.pom (7.5 kB at 393 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/cloud/spring-cloud-vault-dependencies/4.1.0/spring-cloud-vault-dependencies-4.1.0.pom
+Progress (1): 4.1/6.2 kBProgress (1): 6.2 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/cloud/spring-cloud-vault-dependencies/4.1.0/spring-cloud-vault-dependencies-4.1.0.pom (6.2 kB at 272 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/cloud/spring-cloud-zookeeper-dependencies/4.1.0/spring-cloud-zookeeper-dependencies-4.1.0.pom
+Progress (1): 4.1/8.9 kBProgress (1): 8.2/8.9 kBProgress (1): 8.9 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/cloud/spring-cloud-zookeeper-dependencies/4.1.0/spring-cloud-zookeeper-dependencies-4.1.0.pom (8.9 kB at 389 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/cloud/spring-cloud-bus-dependencies/4.1.0/spring-cloud-bus-dependencies-4.1.0.pom
+Progress (1): 4.1/6.1 kBProgress (1): 6.1 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/cloud/spring-cloud-bus-dependencies/4.1.0/spring-cloud-bus-dependencies-4.1.0.pom (6.1 kB at 186 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/cloud/spring-cloud-contract-dependencies/4.1.0/spring-cloud-contract-dependencies-4.1.0.pom
+Progress (1): 4.1/9.0 kBProgress (1): 8.2/9.0 kBProgress (1): 9.0 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/cloud/spring-cloud-contract-dependencies/4.1.0/spring-cloud-contract-dependencies-4.1.0.pom (9.0 kB at 428 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/cloud/spring-cloud-openfeign-dependencies/4.1.0/spring-cloud-openfeign-dependencies-4.1.0.pom
+Progress (1): 4.1/6.5 kBProgress (1): 6.5 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/cloud/spring-cloud-openfeign-dependencies/4.1.0/spring-cloud-openfeign-dependencies-4.1.0.pom (6.5 kB at 271 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/io/github/openfeign/feign-bom/13.1/feign-bom-13.1.pom
+Progress (1): 4.1/7.2 kBProgress (1): 7.2 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/io/github/openfeign/feign-bom/13.1/feign-bom-13.1.pom (7.2 kB at 328 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/cloud/spring-cloud-kubernetes-dependencies/3.1.0/spring-cloud-kubernetes-dependencies-3.1.0.pom
+Progress (1): 4.1/13 kBProgress (1): 8.2/13 kBProgress (1): 12/13 kB Progress (1): 13 kB                      Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/org/springframework/cloud/spring-cloud-kubernetes-dependencies/3.1.0/spring-cloud-kubernetes-dependencies-3.1.0.pom (13 kB at 8.1 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/io/fabric8/kubernetes-client-bom/6.9.2/kubernetes-client-bom-6.9.2.pom
+Progress (1): 4.1/28 kBProgress (1): 8.2/28 kBProgress (1): 12/28 kB Progress (1): 16/28 kBProgress (1): 20/28 kBProgress (1): 25/28 kBProgress (1): 28 kB                      Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/io/fabric8/kubernetes-client-bom/6.9.2/kubernetes-client-bom-6.9.2.pom (28 kB at 1.4 MB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/com/alibaba/cloud/spring-cloud-alibaba-dependencies/2023.0.1.0/spring-cloud-alibaba-dependencies-2023.0.1.0.pom
+Progress (1): 4.1/12 kBProgress (1): 8.2/12 kBProgress (1): 12/12 kB Progress (1): 12 kB                      Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/com/alibaba/cloud/spring-cloud-alibaba-dependencies/2023.0.1.0/spring-cloud-alibaba-dependencies-2023.0.1.0.pom (12 kB at 648 kB/s)
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] 'dependencies.dependency.version' for javax.servlet:javax.servlet-api:jar is missing. @ line 18, column 21
+[ERROR] 'dependencies.dependency.version' for org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar is missing. @ line 23, column 21
+[ERROR] 'dependencies.dependency.version' for org.apache.httpcomponents:httpclient:jar is missing. @ line 38, column 21
+[ERROR] 'dependencies.dependency.version' for org.springframework.cloud:spring-cloud-starter-oauth2:jar is missing. @ line 15, column 21
+[ERROR] 'dependencies.dependency.version' for javax.servlet:javax.servlet-api:jar is missing. @ line 40, column 21
+[ERROR] 'dependencies.dependency.version' for org.springframework.security.oauth:spring-security-oauth2:jar is missing. @ line 26, column 21
+[ERROR] 'dependencies.dependency.version' for javax.servlet:javax.servlet-api:jar is missing. @ line 36, column 21
+[ERROR] 'dependencies.dependency.version' for mysql:mysql-connector-java:jar is missing. @ line 98, column 15
+[ERROR] 'dependencies.dependency.version' for org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar is missing. @ line 113, column 21
+[ERROR] 'dependencies.dependency.version' for org.springframework.cloud:spring-cloud-starter-oauth2:jar is missing. @ line 67, column 21
+[ERROR] 'dependencies.dependency.version' for mysql:mysql-connector-java:jar is missing. @ line 65, column 21
+[ERROR] 'dependencies.dependency.version' for mysql:mysql-connector-java:jar is missing. @ line 59, column 21
+[ERROR] 'dependencies.dependency.version' for mysql:mysql-connector-java:jar is missing. @ line 44, column 21
+[ERROR] 'dependencies.dependency.version' for mysql:mysql-connector-java:jar is missing. @ line 54, column 21
+[ERROR] 'dependencies.dependency.version' for mysql:mysql-connector-java:jar is missing. @ line 30, column 21
+[ERROR] 'dependencies.dependency.version' for mysql:mysql-connector-java:jar is missing. @ line 18, column 21
+ @ 
+[[1;31mERROR[m] The build could not read 13 projects -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project com.raisin:raisin-common-spring-boot-starter:3.1.0 (/home/engine/project/raisin-commons/raisin-common-spring-boot-starter/pom.xml) has 1 error
+[[1;31mERROR[m]     'dependencies.dependency.version' for javax.servlet:javax.servlet-api:jar is missing. @ line 18, column 21
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project com.raisin:raisin-ribbon-spring-boot-starter:3.1.0 (/home/engine/project/raisin-commons/raisin-ribbon-spring-boot-starter/pom.xml) has 2 errors
+[[1;31mERROR[m]     'dependencies.dependency.version' for org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar is missing. @ line 23, column 21
+[[1;31mERROR[m]     'dependencies.dependency.version' for org.apache.httpcomponents:httpclient:jar is missing. @ line 38, column 21
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project com.raisin:raisin-auth-client-spring-boot-starter:3.1.0 (/home/engine/project/raisin-commons/raisin-auth-client-spring-boot-starter/pom.xml) has 2 errors
+[[1;31mERROR[m]     'dependencies.dependency.version' for org.springframework.cloud:spring-cloud-starter-oauth2:jar is missing. @ line 15, column 21
+[[1;31mERROR[m]     'dependencies.dependency.version' for javax.servlet:javax.servlet-api:jar is missing. @ line 40, column 21
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project com.raisin:raisin-common-core:3.1.0 (/home/engine/project/raisin-commons/raisin-common-core/pom.xml) has 2 errors
+[[1;31mERROR[m]     'dependencies.dependency.version' for org.springframework.security.oauth:spring-security-oauth2:jar is missing. @ line 26, column 21
+[[1;31mERROR[m]     'dependencies.dependency.version' for javax.servlet:javax.servlet-api:jar is missing. @ line 36, column 21
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project com.raisin:raisin-uaa:3.1.0 (/home/engine/project/raisin-uaa/pom.xml) has 1 error
+[[1;31mERROR[m]     'dependencies.dependency.version' for mysql:mysql-connector-java:jar is missing. @ line 98, column 15
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project com.raisin:zuul-gateway:3.1.0 (/home/engine/project/raisin-gateway/zuul-gateway/pom.xml) has 1 error
+[[1;31mERROR[m]     'dependencies.dependency.version' for org.springframework.cloud:spring-cloud-starter-netflix-zuul:jar is missing. @ line 113, column 21
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project com.raisin:sc-gateway:3.1.0 (/home/engine/project/raisin-gateway/sc-gateway/pom.xml) has 1 error
+[[1;31mERROR[m]     'dependencies.dependency.version' for org.springframework.cloud:spring-cloud-starter-oauth2:jar is missing. @ line 67, column 21
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project com.raisin:user-center:3.1.0 (/home/engine/project/raisin-business/user-center/pom.xml) has 1 error
+[[1;31mERROR[m]     'dependencies.dependency.version' for mysql:mysql-connector-java:jar is missing. @ line 65, column 21
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project com.raisin:file-center:3.1.0 (/home/engine/project/raisin-business/file-center/pom.xml) has 1 error
+[[1;31mERROR[m]     'dependencies.dependency.version' for mysql:mysql-connector-java:jar is missing. @ line 59, column 21
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project com.raisin:code-generator:3.1.0 (/home/engine/project/raisin-business/code-generator/pom.xml) has 1 error
+[[1;31mERROR[m]     'dependencies.dependency.version' for mysql:mysql-connector-java:jar is missing. @ line 44, column 21
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project com.raisin:txlcn-demo-common:3.1.0 (/home/engine/project/raisin-demo/txlcn-demo/txlcn-demo-common/pom.xml) has 1 error
+[[1;31mERROR[m]     'dependencies.dependency.version' for mysql:mysql-connector-java:jar is missing. @ line 54, column 21
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project com.raisin:sharding-jdbc-demo:3.1.0 (/home/engine/project/raisin-demo/sharding-jdbc-demo/pom.xml) has 1 error
+[[1;31mERROR[m]     'dependencies.dependency.version' for mysql:mysql-connector-java:jar is missing. @ line 30, column 21
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project com.raisin:seata-common-starter:3.1.0 (/home/engine/project/raisin-demo/seata-demo/seata-common-starter/pom.xml) has 1 error
+[[1;31mERROR[m]     'dependencies.dependency.version' for mysql:mysql-connector-java:jar is missing. @ line 18, column 21
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException

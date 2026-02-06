@@ -110,7 +110,8 @@
             </exclusions>
         </dependency>
 
-        <dependency>
+        <!-- Zuul 已被废弃，不再支持 Spring Boot 3.x -->
+        <!-- <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
             <exclusions>
@@ -119,7 +120,7 @@
                     <groupId>com.google.guava</groupId>
                 </exclusion>
             </exclusions>
-        </dependency>
+        </dependency> -->
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-extension</artifactId>

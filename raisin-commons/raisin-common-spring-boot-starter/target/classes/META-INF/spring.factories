@@ -1,3 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.raisin.common.filter.TenantFilter,\
-com.raisin.common.filter.TraceFilter

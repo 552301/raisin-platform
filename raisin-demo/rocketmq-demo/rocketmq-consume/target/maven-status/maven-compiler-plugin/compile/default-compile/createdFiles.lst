@@ -1,5 +1,0 @@
-com/rocketmq/demo/config/RocketMqConfig$MySink.class
-com/rocketmq/demo/service/ReceiveService.class
-com/rocketmq/demo/config/RocketMqConfig.class
-com/rocketmq/demo/model/Order.class
-com/rocketmq/RocketMqConsumeApplication.class

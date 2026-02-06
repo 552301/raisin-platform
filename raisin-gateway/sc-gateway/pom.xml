@@ -64,18 +64,12 @@
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger-ui</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-oauth2</artifactId>
-        </dependency>
+        <!-- OAuth2 support is now integrated into Spring Security 5.x -->
         <dependency>
             <groupId>com.raisin</groupId>
             <artifactId>raisin-redis-spring-boot-starter</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.security</groupId>
-            <artifactId>spring-security-oauth2-resource-server</artifactId>
-        </dependency>
+        <!-- OAuth2 Resource Server is now integrated into Spring Security 5.x -->
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-extension</artifactId>

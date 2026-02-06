@@ -1,6 +1,0 @@
-com/rocketmq/RocketMqProduceApplication.class
-com/rocketmq/demo/service/SenderService.class
-com/rocketmq/demo/config/RocketMqConfig$MySource.class
-com/rocketmq/RocketMqProduceApplication$CustomRunner.class
-com/rocketmq/demo/config/RocketMqConfig.class
-com/rocketmq/demo/model/Order.class

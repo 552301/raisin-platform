@@ -12,10 +12,7 @@
     <artifactId>raisin-auth-client-spring-boot-starter</artifactId>
     <description>认证客户端通用组件</description>
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-oauth2</artifactId>
-        </dependency>
+        <!-- OAuth2 support is now integrated into Spring Security 5.x -->
         <dependency>
             <groupId>com.raisin</groupId>
             <artifactId>raisin-redis-spring-boot-starter</artifactId>
@@ -38,8 +35,8 @@
             <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
+            <groupId>jakarta.servlet</groupId>
+            <artifactId>jakarta.servlet-api</artifactId>
             <scope>provided</scope>
         </dependency>
     </dependencies>

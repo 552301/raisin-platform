@@ -1,6 +1,0 @@
-/home/engine/project/raisin-demo/seata-demo/order-service/src/main/java/com/raisin/order/mapper/OrderMapper.java
-/home/engine/project/raisin-demo/seata-demo/order-service/src/main/java/com/raisin/order/OrderServiceApplication.java
-/home/engine/project/raisin-demo/seata-demo/order-service/src/main/java/com/raisin/order/controller/OrderController.java
-/home/engine/project/raisin-demo/seata-demo/order-service/src/main/java/com/raisin/order/model/Order.java
-/home/engine/project/raisin-demo/seata-demo/order-service/src/main/java/com/raisin/order/service/OrderService.java
-/home/engine/project/raisin-demo/seata-demo/order-service/src/main/java/com/raisin/order/feign/AccountFeignClient.java
