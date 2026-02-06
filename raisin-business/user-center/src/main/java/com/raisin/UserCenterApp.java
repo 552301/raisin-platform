@@ -1,6 +1,6 @@
 package com.raisin;
 
-import com.raisin.common.ribbon.annotation.EnableFeignInterceptor;
+import com.raisin.common.lb.annotation.EnableFeignInterceptor;
 import com.raisin.search.annotation.EnableSearchClient;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

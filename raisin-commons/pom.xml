@@ -16,7 +16,7 @@
         <module>raisin-db-spring-boot-starter</module>
         <module>raisin-swagger2-spring-boot-starter</module>
         <module>raisin-log-spring-boot-starter</module>
-        <module>raisin-ribbon-spring-boot-starter</module>
+        <module>raisin-loadbalancer-spring-boot-starter</module>
         <module>raisin-auth-client-spring-boot-starter</module>
         <module>raisin-sentinel-spring-boot-starter</module>
         <module>raisin-common-core</module>

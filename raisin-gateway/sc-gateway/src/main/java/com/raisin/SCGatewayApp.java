@@ -1,6 +1,6 @@
 package com.raisin;
 
-import com.raisin.common.ribbon.annotation.EnableBaseFeignInterceptor;
+import com.raisin.common.lb.annotation.EnableBaseFeignInterceptor;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
