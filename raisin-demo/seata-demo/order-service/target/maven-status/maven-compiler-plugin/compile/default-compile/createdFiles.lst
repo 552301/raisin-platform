@@ -1,6 +1,0 @@
-com/raisin/order/OrderServiceApplication.class
-com/raisin/order/feign/AccountFeignClient.class
-com/raisin/order/model/Order.class
-com/raisin/order/mapper/OrderMapper.class
-com/raisin/order/controller/OrderController.class
-com/raisin/order/service/OrderService.class

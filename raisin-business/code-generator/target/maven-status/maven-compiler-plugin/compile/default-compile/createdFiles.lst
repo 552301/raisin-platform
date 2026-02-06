@@ -1,8 +1,0 @@
-com/raisin/generator/model/ColumnEntity.class
-com/raisin/generator/CodeGeneratorApp.class
-com/raisin/generator/mapper/SysGeneratorMapper.class
-com/raisin/generator/service/impl/SysGeneratorServiceImpl.class
-com/raisin/generator/controller/SysGeneratorController.class
-com/raisin/generator/utils/GenUtils.class
-com/raisin/generator/model/TableEntity.class
-com/raisin/generator/service/SysGeneratorService.class

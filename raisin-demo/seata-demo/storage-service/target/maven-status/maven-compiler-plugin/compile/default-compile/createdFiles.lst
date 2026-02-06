@@ -1,5 +1,0 @@
-com/raisin/storage/model/Storage.class
-com/raisin/storage/StorageServiceApplication.class
-com/raisin/storage/mapper/StorageMapper.class
-com/raisin/storage/service/StorageService.class
-com/raisin/storage/controller/StorageController.class

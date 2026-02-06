@@ -1,8 +1,0 @@
-/home/engine/project/raisin-demo/rocketmq-demo/rocketmq-transactional/src/main/java/com/rocketmq/demo/service/impl/IntegralReceiveService.java
-/home/engine/project/raisin-demo/rocketmq-demo/rocketmq-transactional/src/main/java/com/rocketmq/demo/service/IOrderService.java
-/home/engine/project/raisin-demo/rocketmq-demo/rocketmq-transactional/src/main/java/com/rocketmq/RocketMqTxApplication.java
-/home/engine/project/raisin-demo/rocketmq-demo/rocketmq-transactional/src/main/java/com/rocketmq/demo/service/impl/OrderServiceImpl.java
-/home/engine/project/raisin-demo/rocketmq-demo/rocketmq-transactional/src/main/java/com/rocketmq/demo/controller/OrderController.java
-/home/engine/project/raisin-demo/rocketmq-demo/rocketmq-transactional/src/main/java/com/rocketmq/demo/model/Order.java
-/home/engine/project/raisin-demo/rocketmq-demo/rocketmq-transactional/src/main/java/com/rocketmq/demo/config/RocketMqConfig.java
-/home/engine/project/raisin-demo/rocketmq-demo/rocketmq-transactional/src/main/java/com/rocketmq/demo/listener/OrderTransactionListenerImpl.java

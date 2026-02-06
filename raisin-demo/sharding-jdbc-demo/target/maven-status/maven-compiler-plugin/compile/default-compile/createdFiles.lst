@@ -1,7 +1,0 @@
-com/sharding/demo/config/MybatisPlusConfig.class
-com/sharding/demo/model/User.class
-com/sharding/demo/mapper/UserMapper.class
-com/sharding/ShardingApplication.class
-com/sharding/demo/service/IUserService.class
-com/sharding/demo/service/impl/UserServiceImpl.class
-com/sharding/demo/controller/UserController.class

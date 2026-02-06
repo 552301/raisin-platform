@@ -125,6 +125,23 @@ public class TtlMDCAdapter implements MDCAdapter {
     }
 
     /**
+     * Clear the MDC by the specified key.
+     */
+    @Override
+    public void clearDequeByKey(String key) {
+        lastOperation.set(WRITE_OPERATION);
+        Map<String, String> oldMap = copyOnInheritThreadLocal.get();
+        if (oldMap != null) {
+            Map<String, String> newMap = Collections.synchronizedMap(new HashMap<>());
+            if (wasLastOpReadOrNull(lastOp)) {
+                newMap.putAll(oldMap);
+            }
+            newMap.remove(key);
+            copyOnInheritThreadLocal.set(newMap);
+        }
+    }
+
+    /**
      * Get the context identified by the <code>key</code> parameter.
      * <p/>
      */
@@ -163,6 +180,25 @@ public class TtlMDCAdapter implements MDCAdapter {
 
     /**
      * Return a copy of the current thread's context map. Returned value may be
+     * null.
+     */
+    @Override
+    public Map<String, String> getCopyOfDequeByKey(String key) {
+        final Map<String, String> map = getPropertyMap();
+        if (map != null && key != null) {
+            Map<String, String> result = new HashMap<>();
+            Object val = map.get(key);
+            if (val != null) {
+                result.put(key, val);
+            }
+            return result;
+        } else {
+            return null;
+        }
+    }
+
+    /**
+     * Return a copy of current thread's context map. Returned value may be
      * null.
      */
     @Override

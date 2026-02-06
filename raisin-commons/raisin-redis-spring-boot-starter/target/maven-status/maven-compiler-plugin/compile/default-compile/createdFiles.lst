@@ -1,8 +1,0 @@
-com/raisin/common/redis/template/RedisRepository.class
-com/raisin/common/redis/properties/CacheManagerProperties.class
-META-INF/spring-configuration-metadata.json
-com/raisin/common/redis/constant/RedisToolsConstant.class
-com/raisin/common/redis/util/RedisObjectSerializer.class
-com/raisin/common/redis/lock/RedisDistributedLock.class
-com/raisin/common/redis/RedisAutoConfigure.class
-com/raisin/common/redis/properties/CacheManagerProperties$CacheConfig.class

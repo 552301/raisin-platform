@@ -9,31 +9,31 @@
     <packaging>pom</packaging>
 
     <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>8</java.version>
-        <commons-collections4.version>4.2</commons-collections4.version>
-        <fastjson.version>1.2.60</fastjson.version>
-        <swagger.version>2.9.2</swagger.version>
+        <java.version>21</java.version>
+        <commons-collections4.version>4.4</commons-collections4.version>
+        <fastjson.version>2.0.43</fastjson.version>
+        <swagger.version>3.0.0</swagger.version>
         <swagger.ui.version>1.8.7</swagger.ui.version>
         <swagger.mg.ui.version>1.0.6</swagger.mg.ui.version>
         <swagger.butler.version>2.0.1</swagger.butler.version>
-        <jjwt.version>0.9.1</jjwt.version>
-        <druid-starter>1.1.10</druid-starter>
-        <jasypt.version>1.14</jasypt.version>
+        <jjwt.version>0.12.3</jjwt.version>
+        <druid-starter>1.2.21</druid-starter>
+        <jasypt.version>3.0.5</jasypt.version>
         <sharding-sphere.version>3.1.0</sharding-sphere.version>
         <security-oauth2.version>2.3.5.RELEASE</security-oauth2.version>
         <security-jwt.version>1.0.9.RELEASE</security-jwt.version>
-        <redisson.version>3.9.1</redisson.version>
+        <redisson.version>3.27.1</redisson.version>
         <easyCaptcha.version>1.6.2</easyCaptcha.version>
-        <hutool.version>5.0.5</hutool.version>
-        <mybatis-plus-boot-starter.version>3.2.0</mybatis-plus-boot-starter.version>
+        <hutool.version>5.8.24</hutool.version>
+        <mybatis-plus-boot-starter.version>3.5.5</mybatis-plus-boot-starter.version>
         <aliyun-sdk-oss>3.4.2</aliyun-sdk-oss>
         <qiniu-java-sdk>7.2.18</qiniu-java-sdk>
-        <easypoi.version>4.1.0</easypoi.version>
-        <poi.version>4.1.0</poi.version>
-        <spring-boot-admin.version>2.1.6</spring-boot-admin.version>
+        <easypoi.version>4.6.2</easypoi.version>
+        <poi.version>5.2.5</poi.version>
+        <spring-boot-admin.version>3.2.3</spring-boot-admin.version>
         <velocity.version>1.7</velocity.version>
         <commons-configuration.version>1.10</commons-configuration.version>
         <txlcn.version>5.0.2.RELEASE</txlcn.version>
@@ -44,15 +44,15 @@
         <banner.version>1.0.2</banner.version>
         <commons-beanutils.version>1.9.4</commons-beanutils.version>
         <spring-social-security.version>1.1.6.RELEASE</spring-social-security.version>
-        <commons-io.version>2.6</commons-io.version>
-        <servlet-api.version>4.0.1</servlet-api.version>
-        <spring-cloud-alibaba-dependencies.version>2.1.1.RELEASE</spring-cloud-alibaba-dependencies.version>
-        <spring-boot-dependencies.version>2.1.9.RELEASE</spring-boot-dependencies.version>
-        <spring-cloud-dependencies.version>Greenwich.SR3</spring-cloud-dependencies.version>
-        <spring-boot-maven-plugin.version>2.1.1.RELEASE</spring-boot-maven-plugin.version>
+        <commons-io.version>2.15.1</commons-io.version>
+        <servlet-api.version>6.0.0</servlet-api.version>
+        <spring-cloud-alibaba-dependencies.version>2023.0.1.0</spring-cloud-alibaba-dependencies.version>
+        <spring-boot-dependencies.version>3.2.3</spring-boot-dependencies.version>
+        <spring-cloud-dependencies.version>2023.0.0</spring-cloud-dependencies.version>
+        <spring-boot-maven-plugin.version>3.2.3</spring-boot-maven-plugin.version>
         <docker-maven-plugin.version>1.2.0</docker-maven-plugin.version>
         <sonar.exclusions>raisin-job/**/*, raisin-register/**/*, raisin-web/**/*</sonar.exclusions>
-        <docker.baseImage>openjdk:8-jre-alpine</docker.baseImage>
+        <docker.baseImage>openjdk:21-jre-slim</docker.baseImage>
         <docker.volumes>/tmp</docker.volumes>
         <docker.image.prefix>hub.raisin.com:8080/microservices-platform</docker.image.prefix>
         <docker.java.security.egd>-Djava.security.egd=file:/dev/./urandom</docker.java.security.egd>
@@ -146,8 +146,37 @@
             </dependency>
             <dependency>
                 <groupId>io.jsonwebtoken</groupId>
-                <artifactId>jjwt</artifactId>
+                <artifactId>jjwt-api</artifactId>
                 <version>${jjwt.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.jsonwebtoken</groupId>
+                <artifactId>jjwt-impl</artifactId>
+                <version>${jjwt.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.jsonwebtoken</groupId>
+                <artifactId>jjwt-jackson</artifactId>
+                <version>${jjwt.version}</version>
+            </dependency>
+            <!-- MySQL Connector -->
+            <dependency>
+                <groupId>com.mysql</groupId>
+                <artifactId>mysql-connector-j</artifactId>
+                <version>8.3.0</version>
+            </dependency>
+            <!-- TransmittableThreadLocal -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>transmittable-thread-local</artifactId>
+                <version>2.14.0</version>
+            </dependency>
+
+            <!-- Apache HttpClient -->
+            <dependency>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpclient</artifactId>
+                <version>4.5.14</version>
             </dependency>
             <!-- druid 官方 starter -->
             <dependency>
@@ -167,15 +196,10 @@
                 <version>${mybatis-plus-boot-starter.version}</version>
             </dependency>
             <!-- 加入spring security spring security oauth2的处理 -->
+            <!-- 使用 Spring Authorization Server 代替已废弃的 Spring Security OAuth2 -->
             <dependency>
-                <groupId>org.springframework.security.oauth</groupId>
-                <artifactId>spring-security-oauth2</artifactId>
-                <version>${security-oauth2.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.springframework.security</groupId>
-                <artifactId>spring-security-jwt</artifactId>
-                <version>${security-jwt.version}</version>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-oauth2-authorization-server</artifactId>
             </dependency>
             <!-- 在Redis基础上的一个Java实用工具包 -->
             <dependency>
@@ -334,16 +358,10 @@
                 <version>${commons-io.version}</version>
             </dependency>
             <dependency>
-                <groupId>javax.servlet</groupId>
-                <artifactId>javax.servlet-api</artifactId>
-                <version>${servlet-api.version}</version>
-            </dependency>
-            <dependency>
                 <groupId>jakarta.servlet</groupId>
                 <artifactId>jakarta.servlet-api</artifactId>
-                <version>6.0.0</version>
+                <version>${servlet-api.version}</version>
             </dependency>
-
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>

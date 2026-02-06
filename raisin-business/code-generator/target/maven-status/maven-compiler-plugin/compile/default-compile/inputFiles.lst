@@ -1,8 +1,0 @@
-/home/engine/project/raisin-business/code-generator/src/main/java/com/raisin/generator/model/ColumnEntity.java
-/home/engine/project/raisin-business/code-generator/src/main/java/com/raisin/generator/service/SysGeneratorService.java
-/home/engine/project/raisin-business/code-generator/src/main/java/com/raisin/generator/service/impl/SysGeneratorServiceImpl.java
-/home/engine/project/raisin-business/code-generator/src/main/java/com/raisin/generator/mapper/SysGeneratorMapper.java
-/home/engine/project/raisin-business/code-generator/src/main/java/com/raisin/generator/CodeGeneratorApp.java
-/home/engine/project/raisin-business/code-generator/src/main/java/com/raisin/generator/controller/SysGeneratorController.java
-/home/engine/project/raisin-business/code-generator/src/main/java/com/raisin/generator/model/TableEntity.java
-/home/engine/project/raisin-business/code-generator/src/main/java/com/raisin/generator/utils/GenUtils.java
