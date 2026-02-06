@@ -1,0 +1,240 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] raisin-platform                                                    [pom]
+[[1;34mINFO[m] raisin-commons                                                     [pom]
+[[1;34mINFO[m] raisin-log-spring-boot-starter                                     [jar]
+[[1;34mINFO[m] raisin-common-core                                                 [jar]
+[[1;34mINFO[m] raisin-redis-spring-boot-starter                                   [jar]
+[[1;34mINFO[m] raisin-common-spring-boot-starter                                  [jar]
+[[1;34mINFO[m] raisin-db-spring-boot-starter                                      [jar]
+[[1;34mINFO[m] raisin-swagger2-spring-boot-starter                                [jar]
+[[1;34mINFO[m] raisin-ribbon-spring-boot-starter                                  [jar]
+[[1;34mINFO[m] raisin-auth-client-spring-boot-starter                             [jar]
+[[1;34mINFO[m] raisin-sentinel-spring-boot-starter                                [jar]
+[[1;34mINFO[m] raisin-config                                                      [jar]
+[[1;34mINFO[m] raisin-uaa                                                         [jar]
+[[1;34mINFO[m] raisin-gateway                                                     [pom]
+[[1;34mINFO[m] zuul-gateway                                                       [jar]
+[[1;34mINFO[m] sc-gateway                                                         [jar]
+[[1;34mINFO[m] raisin-business                                                    [pom]
+[[1;34mINFO[m] search-center                                                      [pom]
+[[1;34mINFO[m] search-client                                                      [jar]
+[[1;34mINFO[m] user-center                                                        [jar]
+[[1;34mINFO[m] file-center                                                        [jar]
+[[1;34mINFO[m] code-generator                                                     [jar]
+[[1;34mINFO[m] search-server                                                      [jar]
+[[1;34mINFO[m] raisin-web                                                         [pom]
+[[1;34mINFO[m] back-web                                                           [jar]
+[[1;34mINFO[m] raisin-job                                                         [pom]
+[[1;34mINFO[m] job-core                                                           [jar]
+[[1;34mINFO[m] job-admin                                                          [jar]
+[[1;34mINFO[m] job-executor-samples                                               [jar]
+[[1;34mINFO[m] raisin-monitor                                                     [pom]
+[[1;34mINFO[m] sc-admin                                                           [jar]
+[[1;34mINFO[m] log-center                                                         [jar]
+[[1;34mINFO[m] raisin-transaction                                                 [pom]
+[[1;34mINFO[m] txlcn-tm                                                           [jar]
+[[1;34mINFO[m] raisin-demo                                                        [pom]
+[[1;34mINFO[m] txlcn-demo                                                         [pom]
+[[1;34mINFO[m] demo-common                                                        [jar]
+[[1;34mINFO[m] txlcn-demo-spring-service-a                                        [jar]
+[[1;34mINFO[m] txlcn-demo-spring-service-b                                        [jar]
+[[1;34mINFO[m] txlcn-demo-spring-service-c                                        [jar]
+[[1;34mINFO[m] sharding-jdbc-demo                                                 [jar]
+[[1;34mINFO[m] rocketmq-demo                                                      [pom]
+[[1;34mINFO[m] rocketmq-transactional                                             [jar]
+[[1;34mINFO[m] rocketmq-produce                                                   [jar]
+[[1;34mINFO[m] rocketmq-consume                                                   [jar]
+[[1;34mINFO[m] seata-demo                                                         [pom]
+[[1;34mINFO[m] business-service                                                   [jar]
+[[1;34mINFO[m] seata-common-starter                                               [jar]
+[[1;34mINFO[m] order-service                                                      [jar]
+[[1;34mINFO[m] storage-service                                                    [jar]
+[[1;34mINFO[m] account-service                                                    [jar]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Using the MultiThreadedBuilder implementation with a thread count of 2
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36mcom.raisin:raisin-platform[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding raisin-platform 3.1.0                                    [1/51][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.pom
+Progress (1): 4.1 kBProgress (1): 6.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.pom (6.4 kB at 9.1 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.jar
+Progress (1): 2.3/27 kBProgress (1): 5.0/27 kBProgress (1): 7.8/27 kBProgress (1): 11/27 kB Progress (1): 13/27 kBProgress (1): 16/27 kBProgress (1): 19/27 kBProgress (1): 21/27 kBProgress (1): 24/27 kBProgress (1): 27/27 kBProgress (1): 27 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.jar (27 kB at 355 kB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mraisin-platform[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mraisin-platform[0;1m ---[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.pom
+Progress (1): 2.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.pom (2.6 kB at 20 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.pom
+Progress (1): 2.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.pom (2.0 kB at 23 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.pom
+Progress (1): 3.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.pom (3.0 kB at 36 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.1/plexus-utils-1.4.1.pom
+Progress (1): 1.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.1/plexus-utils-1.4.1.pom (1.9 kB at 23 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.11/plexus-1.0.11.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 9.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.11/plexus-1.0.11.pom (9.0 kB at 126 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.pom
+Progress (1): 3.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.pom (3.9 kB at 57 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.0.3/plexus-containers-1.0.3.pom
+Progress (1): 492 B                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.0.3/plexus-containers-1.0.3.pom (492 B at 6.8 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.4/plexus-1.0.4.pom
+Progress (1): 4.1 kBProgress (1): 5.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.4/plexus-1.0.4.pom (5.7 kB at 94 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1.pom
+Progress (1): 998 B                   Downloaded from central: https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1.pom (998 B at 13 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.0.4/plexus-utils-1.0.4.pom
+Progress (1): 4.1 kBProgress (1): 6.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.0.4/plexus-utils-1.0.4.pom (6.9 kB at 104 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.pom
+Progress (1): 3.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.pom (3.1 kB at 55 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.pom
+Progress (1): 2.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.pom (2.0 kB at 30 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.pom
+Progress (1): 2.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.pom (2.6 kB at 43 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.pom
+Progress (1): 1.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.pom (1.9 kB at 28 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.pom
+Progress (1): 1.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.pom (1.6 kB at 23 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.pom
+Progress (1): 1.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.pom (1.9 kB at 35 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.pom
+Progress (1): 2.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.pom (2.5 kB at 43 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.1/plexus-3.1.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 12 kB Progress (1): 16 kBProgress (1): 19 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.1/plexus-3.1.pom (19 kB at 321 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/17/spice-parent-17.pom
+Progress (1): 4.1 kBProgress (1): 6.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/17/spice-parent-17.pom (6.8 kB at 97 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/10/forge-parent-10.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 12 kB Progress (1): 14 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/10/forge-parent-10.pom (14 kB at 144 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.pom
+Progress (1): 1.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.pom (1.1 kB at 18 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.7/plexus-components-1.1.7.pom
+Progress (1): 4.1 kBProgress (1): 5.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.7/plexus-components-1.1.7.pom (5.0 kB at 83 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.8/plexus-1.0.8.pom
+Progress (1): 4.1 kBProgress (1): 7.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.8/plexus-1.0.8.pom (7.2 kB at 120 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-8/plexus-container-default-1.0-alpha-8.pom
+Progress (1): 4.1 kBProgress (1): 7.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-8/plexus-container-default-1.0-alpha-8.pom (7.3 kB at 117 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar
+Progress (1): 4.1/116 kBProgress (1): 7.7/116 kBProgress (1): 12/116 kB Progress (1): 16/116 kBProgress (2): 16/116 kB | 2.3/194 kBProgress (3): 16/116 kB | 2.3/194 kB | 2.3/29 kBProgress (3): 20/116 kB | 2.3/194 kB | 2.3/29 kBProgress (4): 20/116 kB | 2.3/194 kB | 2.3/29 kB | 2.3/49 kBProgress (4): 20/116 kB | 5.0/194 kB | 2.3/29 kB | 2.3/49 kBProgress (4): 20/116 kB | 5.0/194 kB | 5.0/29 kB | 2.3/49 kBProgress (4): 24/116 kB | 5.0/194 kB | 5.0/29 kB | 2.3/49 kBProgress (4): 24/116 kB | 5.0/194 kB | 5.0/29 kB | 5.0/49 kBProgress (4): 24/116 kB | 7.8/194 kB | 5.0/29 kB | 5.0/49 kBProgress (5): 24/116 kB | 7.8/194 kB | 5.0/29 kB | 5.0/49 kB | 2.3/35 kBProgress (5): 24/116 kB | 7.8/194 kB | 5.0/29 kB | 7.8/49 kB | 2.3/35 kBProgress (5): 24/116 kB | 11/194 kB | 5.0/29 kB | 7.8/49 kB | 2.3/35 kB Progress (5): 24/116 kB | 11/194 kB | 7.8/29 kB | 7.8/49 kB | 2.3/35 kBProgress (5): 28/116 kB | 11/194 kB | 7.8/29 kB | 7.8/49 kB | 2.3/35 kBProgress (5): 28/116 kB | 13/194 kB | 7.8/29 kB | 7.8/49 kB | 2.3/35 kBProgress (5): 28/116 kB | 13/194 kB | 7.8/29 kB | 11/49 kB | 2.3/35 kB Progress (5): 28/116 kB | 13/194 kB | 7.8/29 kB | 11/49 kB | 5.0/35 kBProgress (5): 28/116 kB | 13/194 kB | 7.8/29 kB | 13/49 kB | 5.0/35 kBProgress (5): 28/116 kB | 16/194 kB | 7.8/29 kB | 13/49 kB | 5.0/35 kBProgress (5): 32/116 kB | 16/194 kB | 7.8/29 kB | 13/49 kB | 5.0/35 kBProgress (5): 32/116 kB | 16/194 kB | 11/29 kB | 13/49 kB | 5.0/35 kB Progress (5): 32/116 kB | 19/194 kB | 11/29 kB | 13/49 kB | 5.0/35 kBProgress (5): 32/116 kB | 19/194 kB | 11/29 kB | 16/49 kB | 5.0/35 kBProgress (5): 32/116 kB | 19/194 kB | 11/29 kB | 16/49 kB | 7.8/35 kBProgress (5): 36/116 kB | 19/194 kB | 11/29 kB | 16/49 kB | 7.8/35 kBProgress (5): 36/116 kB | 19/194 kB | 13/29 kB | 16/49 kB | 7.8/35 kBProgress (5): 36/116 kB | 21/194 kB | 13/29 kB | 16/49 kB | 7.8/35 kBProgress (5): 41/116 kB | 21/194 kB | 13/29 kB | 16/49 kB | 7.8/35 kBProgress (5): 41/116 kB | 21/194 kB | 13/29 kB | 16/49 kB | 11/35 kB Progress (5): 41/116 kB | 21/194 kB | 13/29 kB | 19/49 kB | 11/35 kBProgress (5): 45/116 kB | 21/194 kB | 13/29 kB | 19/49 kB | 11/35 kBProgress (5): 45/116 kB | 21/194 kB | 16/29 kB | 19/49 kB | 11/35 kBProgress (5): 45/116 kB | 24/194 kB | 16/29 kB | 19/49 kB | 11/35 kBProgress (5): 49/116 kB | 24/194 kB | 16/29 kB | 19/49 kB | 11/35 kBProgress (5): 49/116 kB | 24/194 kB | 16/29 kB | 21/49 kB | 11/35 kBProgress (5): 49/116 kB | 24/194 kB | 16/29 kB | 21/49 kB | 13/35 kBProgress (5): 49/116 kB | 24/194 kB | 19/29 kB | 21/49 kB | 13/35 kBProgress (5): 49/116 kB | 27/194 kB | 19/29 kB | 21/49 kB | 13/35 kBProgress (5): 49/116 kB | 27/194 kB | 19/29 kB | 24/49 kB | 13/35 kBProgress (5): 49/116 kB | 27/194 kB | 19/29 kB | 24/49 kB | 16/35 kBProgress (5): 49/116 kB | 30/194 kB | 19/29 kB | 24/49 kB | 16/35 kBProgress (5): 49/116 kB | 30/194 kB | 21/29 kB | 24/49 kB | 16/35 kBProgress (5): 49/116 kB | 32/194 kB | 21/29 kB | 24/49 kB | 16/35 kBProgress (5): 49/116 kB | 32/194 kB | 21/29 kB | 24/49 kB | 19/35 kBProgress (5): 49/116 kB | 32/194 kB | 21/29 kB | 27/49 kB | 19/35 kBProgress (5): 53/116 kB | 32/194 kB | 21/29 kB | 27/49 kB | 19/35 kBProgress (5): 53/116 kB | 32/194 kB | 24/29 kB | 27/49 kB | 19/35 kBProgress (5): 53/116 kB | 35/194 kB | 24/29 kB | 27/49 kB | 19/35 kBProgress (5): 53/116 kB | 35/194 kB | 24/29 kB | 30/49 kB | 19/35 kBProgress (5): 57/116 kB | 35/194 kB | 24/29 kB | 30/49 kB | 19/35 kBProgress (5): 57/116 kB | 35/194 kB | 24/29 kB | 30/49 kB | 21/35 kBProgress (5): 61/116 kB | 35/194 kB | 24/29 kB | 30/49 kB | 21/35 kBProgress (5): 61/116 kB | 35/194 kB | 27/29 kB | 30/49 kB | 21/35 kBProgress (5): 61/116 kB | 35/194 kB | 27/29 kB | 30/49 kB | 24/35 kBProgress (5): 65/116 kB | 35/194 kB | 27/29 kB | 30/49 kB | 24/35 kBProgress (5): 65/116 kB | 35/194 kB | 27/29 kB | 32/49 kB | 24/35 kBProgress (5): 65/116 kB | 38/194 kB | 27/29 kB | 32/49 kB | 24/35 kBProgress (5): 65/116 kB | 38/194 kB | 27/29 kB | 32/49 kB | 27/35 kBProgress (5): 65/116 kB | 38/194 kB | 29 kB | 32/49 kB | 27/35 kB   Progress (5): 65/116 kB | 38/194 kB | 29 kB | 35/49 kB | 27/35 kBProgress (5): 65/116 kB | 41/194 kB | 29 kB | 35/49 kB | 27/35 kBProgress (5): 65/116 kB | 41/194 kB | 29 kB | 35/49 kB | 30/35 kBProgress (5): 69/116 kB | 41/194 kB | 29 kB | 35/49 kB | 30/35 kBProgress (5): 69/116 kB | 43/194 kB | 29 kB | 35/49 kB | 30/35 kBProgress (5): 69/116 kB | 43/194 kB | 29 kB | 38/49 kB | 30/35 kBProgress (5): 69/116 kB | 43/194 kB | 29 kB | 38/49 kB | 32/35 kBProgress (5): 73/116 kB | 43/194 kB | 29 kB | 38/49 kB | 32/35 kBProgress (5): 73/116 kB | 46/194 kB | 29 kB | 38/49 kB | 32/35 kBProgress (5): 77/116 kB | 46/194 kB | 29 kB | 38/49 kB | 32/35 kBProgress (5): 77/116 kB | 46/194 kB | 29 kB | 41/49 kB | 32/35 kBProgress (5): 77/116 kB | 49/194 kB | 29 kB | 41/49 kB | 32/35 kBProgress (5): 77/116 kB | 49/194 kB | 29 kB | 41/49 kB | 35/35 kBProgress (5): 81/116 kB | 49/194 kB | 29 kB | 41/49 kB | 35/35 kBProgress (5): 81/116 kB | 52/194 kB | 29 kB | 41/49 kB | 35/35 kBProgress (5): 81/116 kB | 52/194 kB | 29 kB | 43/49 kB | 35/35 kBProgress (5): 81/116 kB | 52/194 kB | 29 kB | 43/49 kB | 35 kB   Progress (5): 81/116 kB | 54/194 kB | 29 kB | 43/49 kB | 35 kBProgress (5): 81/116 kB | 54/194 kB | 29 kB | 46/49 kB | 35 kBProgress (5): 81/116 kB | 58/194 kB | 29 kB | 46/49 kB | 35 kBProgress (5): 86/116 kB | 58/194 kB | 29 kB | 46/49 kB | 35 kBProgress (5): 86/116 kB | 58/194 kB | 29 kB | 49/49 kB | 35 kBProgress (5): 90/116 kB | 58/194 kB | 29 kB | 49/49 kB | 35 kBProgress (5): 90/116 kB | 58/194 kB | 29 kB | 49 kB | 35 kB   Progress (5): 90/116 kB | 63/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 94/116 kB | 63/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 94/116 kB | 67/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 98/116 kB | 67/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 98/116 kB | 71/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 98/116 kB | 75/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 98/116 kB | 79/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 102/116 kB | 79/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 102/116 kB | 81/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 106/116 kB | 81/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 106/116 kB | 85/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 110/116 kB | 85/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 114/116 kB | 85/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 114/116 kB | 89/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 114/116 kB | 93/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 116 kB | 93/194 kB | 29 kB | 49 kB | 35 kB    Progress (5): 116 kB | 97/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 116 kB | 102/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 116 kB | 106/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 116 kB | 110/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 116 kB | 114/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 116 kB | 118/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 116 kB | 122/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 116 kB | 126/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 116 kB | 130/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 116 kB | 134/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 116 kB | 138/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 116 kB | 142/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 116 kB | 147/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 116 kB | 149/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 116 kB | 153/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 116 kB | 157/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 116 kB | 161/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 116 kB | 165/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 116 kB | 169/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 116 kB | 173/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 116 kB | 177/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 116 kB | 181/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 116 kB | 186/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 116 kB | 190/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 116 kB | 194/194 kB | 29 kB | 49 kB | 35 kBProgress (5): 116 kB | 194 kB | 29 kB | 49 kB | 35 kB                                                         Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.jar (35 kB at 299 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar (194 kB at 1.6 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.jar (116 kB at 908 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.jar
+Progress (3): 29 kB | 49 kB | 3.8/38 kBProgress (3): 29 kB | 49 kB | 7.9/38 kBProgress (3): 29 kB | 49 kB | 12/38 kB Progress (3): 29 kB | 49 kB | 16/38 kBProgress (3): 29 kB | 49 kB | 20/38 kB                                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.jar (49 kB at 270 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.jar
+Progress (2): 29 kB | 24/38 kBProgress (2): 29 kB | 28/38 kBProgress (2): 29 kB | 32/38 kBProgress (2): 29 kB | 37/38 kBProgress (3): 29 kB | 37/38 kB | 4.1/86 kBProgress (3): 29 kB | 38 kB | 4.1/86 kB   Progress (3): 29 kB | 38 kB | 7.7/86 kB                                       Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.jar (29 kB at 158 kB/s)
+Progress (2): 38 kB | 12/86 kB                              Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.jar
+Progress (2): 38 kB | 16/86 kBProgress (2): 38 kB | 20/86 kBProgress (2): 38 kB | 24/86 kBProgress (2): 38 kB | 28/86 kBProgress (2): 38 kB | 32/86 kBProgress (2): 38 kB | 36/86 kBProgress (2): 38 kB | 41/86 kBProgress (2): 38 kB | 45/86 kBProgress (2): 38 kB | 49/86 kBProgress (2): 38 kB | 53/86 kBProgress (2): 38 kB | 57/86 kBProgress (2): 38 kB | 61/86 kBProgress (2): 38 kB | 65/86 kBProgress (2): 38 kB | 69/86 kBProgress (2): 38 kB | 73/86 kBProgress (2): 38 kB | 77/86 kBProgress (2): 38 kB | 81/86 kBProgress (2): 38 kB | 85/86 kBProgress (2): 38 kB | 86 kB   Progress (3): 38 kB | 86 kB | 2.3/121 kBProgress (3): 38 kB | 86 kB | 5.0/121 kBProgress (3): 38 kB | 86 kB | 7.8/121 kBProgress (3): 38 kB | 86 kB | 11/121 kB Progress (3): 38 kB | 86 kB | 14/121 kBProgress (3): 38 kB | 86 kB | 18/121 kBProgress (3): 38 kB | 86 kB | 22/121 kBProgress (3): 38 kB | 86 kB | 26/121 kBProgress (3): 38 kB | 86 kB | 30/121 kBProgress (3): 38 kB | 86 kB | 34/121 kBProgress (3): 38 kB | 86 kB | 38/121 kBProgress (3): 38 kB | 86 kB | 42/121 kBProgress (3): 38 kB | 86 kB | 46/121 kBProgress (3): 38 kB | 86 kB | 51/121 kBProgress (4): 38 kB | 86 kB | 51/121 kB | 4.1/57 kBProgress (4): 38 kB | 86 kB | 55/121 kB | 4.1/57 kBProgress (4): 38 kB | 86 kB | 55/121 kB | 7.7/57 kBProgress (4): 38 kB | 86 kB | 55/121 kB | 12/57 kB Progress (4): 38 kB | 86 kB | 59/121 kB | 12/57 kBProgress (4): 38 kB | 86 kB | 59/121 kB | 16/57 kBProgress (4): 38 kB | 86 kB | 63/121 kB | 16/57 kBProgress (4): 38 kB | 86 kB | 67/121 kB | 16/57 kBProgress (4): 38 kB | 86 kB | 71/121 kB | 16/57 kBProgress (4): 38 kB | 86 kB | 71/121 kB | 20/57 kBProgress (4): 38 kB | 86 kB | 71/121 kB | 24/57 kBProgress (4): 38 kB | 86 kB | 75/121 kB | 24/57 kBProgress (4): 38 kB | 86 kB | 75/121 kB | 28/57 kBProgress (4): 38 kB | 86 kB | 75/121 kB | 32/57 kBProgress (4): 38 kB | 86 kB | 79/121 kB | 32/57 kBProgress (4): 38 kB | 86 kB | 81/121 kB | 32/57 kBProgress (4): 38 kB | 86 kB | 85/121 kB | 32/57 kBProgress (4): 38 kB | 86 kB | 90/121 kB | 32/57 kBProgress (4): 38 kB | 86 kB | 90/121 kB | 36/57 kBProgress (4): 38 kB | 86 kB | 90/121 kB | 41/57 kBProgress (4): 38 kB | 86 kB | 94/121 kB | 41/57 kBProgress (4): 38 kB | 86 kB | 94/121 kB | 45/57 kBProgress (4): 38 kB | 86 kB | 94/121 kB | 49/57 kBProgress (4): 38 kB | 86 kB | 98/121 kB | 49/57 kB                                                  Downloaded from central: https://repo.maven.apache.org/maven2/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar (38 kB at 178 kB/s)
+Progress (3): 86 kB | 102/121 kB | 49/57 kB                                           Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.jar
+Progress (3): 86 kB | 102/121 kB | 53/57 kBProgress (3): 86 kB | 102/121 kB | 57 kB   Progress (3): 86 kB | 106/121 kB | 57 kBProgress (3): 86 kB | 110/121 kB | 57 kBProgress (3): 86 kB | 114/121 kB | 57 kB                                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.jar (86 kB at 408 kB/s)
+Progress (2): 118/121 kB | 57 kBProgress (2): 121 kB | 57 kB    Progress (3): 121 kB | 57 kB | 2.3/24 kB                                        Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.jar
+Progress (3): 121 kB | 57 kB | 5.0/24 kBProgress (3): 121 kB | 57 kB | 7.8/24 kBProgress (3): 121 kB | 57 kB | 11/24 kB                                        Downloaded from central: https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1.jar (121 kB at 431 kB/s)
+Progress (2): 57 kB | 13/24 kB                              Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.jar
+Progress (3): 57 kB | 13/24 kB | 4.1/87 kBProgress (3): 57 kB | 16/24 kB | 4.1/87 kBProgress (3): 57 kB | 16/24 kB | 7.7/87 kB                                          Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.jar (57 kB at 200 kB/s)
+Progress (2): 18/24 kB | 7.7/87 kBProgress (2): 18/24 kB | 12/87 kB Progress (2): 18/24 kB | 16/87 kBProgress (2): 21/24 kB | 16/87 kBProgress (2): 24/24 kB | 16/87 kBProgress (2): 24/24 kB | 20/87 kBProgress (2): 24 kB | 20/87 kB   Progress (2): 24 kB | 24/87 kBProgress (2): 24 kB | 28/87 kBProgress (2): 24 kB | 32/87 kBProgress (2): 24 kB | 36/87 kBProgress (2): 24 kB | 41/87 kBProgress (2): 24 kB | 45/87 kBProgress (2): 24 kB | 49/87 kBProgress (2): 24 kB | 53/87 kBProgress (2): 24 kB | 57/87 kBProgress (2): 24 kB | 61/87 kBProgress (2): 24 kB | 65/87 kBProgress (2): 24 kB | 69/87 kBProgress (2): 24 kB | 73/87 kBProgress (2): 24 kB | 77/87 kBProgress (2): 24 kB | 81/87 kBProgress (2): 24 kB | 86/87 kBProgress (2): 24 kB | 87 kB   Progress (3): 24 kB | 87 kB | 3.8/12 kBProgress (3): 24 kB | 87 kB | 7.8/12 kBProgress (3): 24 kB | 87 kB | 12/12 kB Progress (4): 24 kB | 87 kB | 12/12 kB | 4.1/230 kBProgress (4): 24 kB | 87 kB | 12 kB | 4.1/230 kB   Progress (4): 24 kB | 87 kB | 12 kB | 7.7/230 kBProgress (4): 24 kB | 87 kB | 12 kB | 12/230 kB Progress (4): 24 kB | 87 kB | 12 kB | 16/230 kBProgress (4): 24 kB | 87 kB | 12 kB | 20/230 kBProgress (4): 24 kB | 87 kB | 12 kB | 24/230 kBProgress (4): 24 kB | 87 kB | 12 kB | 28/230 kBProgress (4): 24 kB | 87 kB | 12 kB | 32/230 kBProgress (4): 24 kB | 87 kB | 12 kB | 36/230 kBProgress (4): 24 kB | 87 kB | 12 kB | 41/230 kBProgress (4): 24 kB | 87 kB | 12 kB | 45/230 kBProgress (4): 24 kB | 87 kB | 12 kB | 49/230 kBProgress (4): 24 kB | 87 kB | 12 kB | 53/230 kBProgress (4): 24 kB | 87 kB | 12 kB | 57/230 kBProgress (4): 24 kB | 87 kB | 12 kB | 61/230 kBProgress (4): 24 kB | 87 kB | 12 kB | 65/230 kBProgress (4): 24 kB | 87 kB | 12 kB | 69/230 kBProgress (4): 24 kB | 87 kB | 12 kB | 73/230 kBProgress (4): 24 kB | 87 kB | 12 kB | 77/230 kBProgress (4): 24 kB | 87 kB | 12 kB | 81/230 kBProgress (4): 24 kB | 87 kB | 12 kB | 86/230 kB                                               Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.jar (87 kB at 279 kB/s)
+Progress (3): 24 kB | 12 kB | 90/230 kBProgress (3): 24 kB | 12 kB | 94/230 kBProgress (3): 24 kB | 12 kB | 98/230 kBProgress (3): 24 kB | 12 kB | 102/230 kBProgress (3): 24 kB | 12 kB | 106/230 kBProgress (3): 24 kB | 12 kB | 110/230 kBProgress (3): 24 kB | 12 kB | 114/230 kB                                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.jar (24 kB at 78 kB/s)
+Progress (2): 12 kB | 118/230 kBProgress (2): 12 kB | 122/230 kBProgress (2): 12 kB | 127/230 kBProgress (2): 12 kB | 131/230 kBProgress (2): 12 kB | 135/230 kBProgress (2): 12 kB | 139/230 kBProgress (2): 12 kB | 143/230 kBProgress (2): 12 kB | 147/230 kBProgress (2): 12 kB | 151/230 kBProgress (2): 12 kB | 155/230 kBProgress (2): 12 kB | 159/230 kBProgress (2): 12 kB | 163/230 kBProgress (2): 12 kB | 167/230 kBProgress (2): 12 kB | 172/230 kBProgress (2): 12 kB | 176/230 kBProgress (2): 12 kB | 180/230 kBProgress (2): 12 kB | 184/230 kBProgress (2): 12 kB | 188/230 kBProgress (2): 12 kB | 192/230 kBProgress (2): 12 kB | 196/230 kBProgress (2): 12 kB | 200/230 kBProgress (2): 12 kB | 204/230 kBProgress (2): 12 kB | 208/230 kBProgress (2): 12 kB | 213/230 kBProgress (2): 12 kB | 217/230 kBProgress (2): 12 kB | 221/230 kBProgress (2): 12 kB | 225/230 kBProgress (2): 12 kB | 229/230 kBProgress (2): 12 kB | 230 kB                                Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-digest/1.0/plexus-digest-1.0.jar (12 kB at 36 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.5/plexus-utils-3.0.5.jar (230 kB at 670 kB/s)
+[[1;34mINFO[m] Installing /home/engine/project/pom.xml to /home/engine/.m2/repository/com/raisin/raisin-platform/3.1.0/raisin-platform-3.1.0.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36mcom.raisin:raisin-config[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding raisin-config 3.1.0                                      [2/51][m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] [1m---------------------< [0;36mcom.raisin:raisin-commons[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding raisin-commons 3.1.0                                     [3/51][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mraisin-commons[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mraisin-commons[0;1m ---[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 10 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.pom (10 kB at 98 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 12 kB Progress (1): 14 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.12.4/surefire-2.12.4.pom (14 kB at 234 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar
+Progress (1): 4.1/30 kBProgress (1): 7.7/30 kBProgress (1): 12/30 kB Progress (1): 16/30 kBProgress (1): 20/30 kBProgress (1): 24/30 kBProgress (1): 28/30 kBProgress (1): 30 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.12.4/maven-surefire-plugin-2.12.4.jar (30 kB at 516 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom
+[[1;34mINFO[m] Installing /home/engine/project/raisin-commons/pom.xml to /home/engine/.m2/repository/com/raisin/raisin-commons/3.1.0/raisin-commons-3.1.0.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36mcom.raisin:raisin-gateway[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding raisin-gateway 3.1.0                                     [4/51][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+Progress (1): 4.1 kBProgress (1): 5.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom (5.8 kB at 93 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar
+Progress (1): 4.1/34 kBProgress (1): 7.7/34 kBProgress (1): 12/34 kB Progress (1): 16/34 kBProgress (1): 20/34 kBProgress (1): 24/34 kBProgress (1): 28/34 kBProgress (1): 32/34 kBProgress (1): 34 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar (34 kB at 597 kB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mraisin-gateway[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mraisin-gateway[0;1m ---[m
+[[1;34mINFO[m] Installing /home/engine/project/raisin-gateway/pom.xml to /home/engine/.m2/repository/com/raisin/raisin-gateway/3.1.0/raisin-gateway-3.1.0.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36mcom.raisin:raisin-business[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding raisin-business 3.1.0                                    [5/51][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mraisin-business[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mraisin-business[0;1m ---[m
+[[1;34mINFO[m] Installing /home/engine/project/raisin-business/pom.xml to /home/engine/.m2/repository/com/raisin/raisin-business/3.1.0/raisin-business-3.1.0.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36mcom.raisin:raisin-web[0;1m >------------------------[m
+[[1;34mINFO[m] [1mBuilding raisin-web 3.1.0                                         [6/51][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mraisin-web[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mraisin-web[0;1m ---[m
+[[1;34mINFO[m] Installing /home/engine/project/raisin-web/pom.xml to /home/engine/.m2/repository/com/raisin/raisin-web/3.1.0/raisin-web-3.1.0.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36mcom.raisin:raisin-job[0;1m >------------------------[m
+[[1;34mINFO[m] [1mBuilding raisin-job 3.1.0                                         [7/51][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mraisin-job[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mraisin-job[0;1m ---[m
+[[1;34mINFO[m] Installing /home/engine/project/raisin-job/pom.xml to /home/engine/.m2/repository/com/raisin/raisin-job/3.1.0/raisin-job-3.1.0.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36mcom.raisin:raisin-monitor[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding raisin-monitor 3.1.0                                     [8/51][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mraisin-monitor[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mraisin-monitor[0;1m ---[m
+[[1;34mINFO[m] Installing /home/engine/project/raisin-monitor/pom.xml to /home/engine/.m2/repository/com/raisin/raisin-monitor/3.1.0/raisin-monitor-3.1.0.pom
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/io/netty/netty-bom/4.1.38.Final/netty-bom-4.1.38.Final.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36mcom.raisin:raisin-transaction[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding raisin-transaction 3.1.0                                 [9/51][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mraisin-transaction[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mraisin-transaction[0;1m ---[m
+[[1;34mINFO[m] Installing /home/engine/project/raisin-transaction/pom.xml to /home/engine/.m2/repository/com/raisin/raisin-transaction/3.1.0/raisin-transaction-3.1.0.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36mcom.raisin:raisin-demo[0;1m >-----------------------[m
+[[1;34mINFO[m] [1mBuilding raisin-demo 3.1.0                                       [10/51][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mraisin-demo[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mraisin-demo[0;1m ---[m
+[[1;34mINFO[m] Installing /home/engine/project/raisin-demo/pom.xml to /home/engine/.m2/repository/com/raisin/raisin-demo/3.1.0/raisin-demo-3.1.0.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36mcom.raisin:raisin-log-spring-boot-starter[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding raisin-log-spring-boot-starter 3.1.0                    [11/51][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/io/netty/netty-bom/4.1.38.Final/netty-bom-4.1.38.Final.pom
+Progress (1): 4.1/7.9 kBProgress (1): 7.9 kB                        Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/io/netty/netty-bom/4.1.38.Final/netty-bom-4.1.38.Final.pom (7.9 kB at 16 kB/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/io/projectreactor/reactor-bom/Californium-SR10/reactor-bom-Californium-SR10.pom
+Progress (1): 4.0 kB                    Downloaded from aliyun-repos: https://maven.aliyun.com/repository/public/io/netty/netty-bom/4.1.38.Final/netty-bom-4.1.38.Final.pom (0 B at 0 B/s)
+Downloading from aliyun-repos: https://maven.aliyun.com/repository/public/io/projectreactor/reactor-bom/Californium-SR10/reactor-bom-Californium-SR10.pom
