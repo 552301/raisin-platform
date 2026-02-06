@@ -39,13 +39,15 @@
         <txlcn.version>5.0.2.RELEASE</txlcn.version>
         <fastdfs-client.version>1.26.5</fastdfs-client.version>
         <userAgent.version>1.21</userAgent.version>
-        <transmittable.version>2.11.0</transmittable.version>
+        <transmittable.version>2.14.2</transmittable.version>
         <lettuce.version>5.1.8.RELEASE</lettuce.version>
         <banner.version>1.0.2</banner.version>
         <commons-beanutils.version>1.9.4</commons-beanutils.version>
         <spring-social-security.version>1.1.6.RELEASE</spring-social-security.version>
         <commons-io.version>2.15.1</commons-io.version>
         <servlet-api.version>6.0.0</servlet-api.version>
+        <logstash-logback.version>7.4</logstash-logback.version>
+        <janino.version>3.1.10</janino.version>
         <spring-cloud-alibaba-dependencies.version>2023.0.1.0</spring-cloud-alibaba-dependencies.version>
         <spring-boot-dependencies.version>3.2.3</spring-boot-dependencies.version>
         <spring-cloud-dependencies.version>2023.0.0</spring-cloud-dependencies.version>
@@ -121,7 +123,7 @@
             </dependency>
             <dependency>
                 <groupId>com.raisin</groupId>
-                <artifactId>raisin-ribbon-spring-boot-starter</artifactId>
+                <artifactId>raisin-loadbalancer-spring-boot-starter</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
@@ -169,7 +171,7 @@
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>transmittable-thread-local</artifactId>
-                <version>2.14.0</version>
+                <version>${transmittable.version}</version>
             </dependency>
 
             <!-- Apache HttpClient -->
@@ -333,11 +335,6 @@
                 <version>${userAgent.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.alibaba</groupId>
-                <artifactId>transmittable-thread-local</artifactId>
-                <version>${transmittable.version}</version>
-            </dependency>
-            <dependency>
                 <groupId>io.lettuce</groupId>
                 <artifactId>lettuce-core</artifactId>
                 <version>${lettuce.version}</version>
@@ -361,6 +358,16 @@
                 <groupId>jakarta.servlet</groupId>
                 <artifactId>jakarta.servlet-api</artifactId>
                 <version>${servlet-api.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>net.logstash.logback</groupId>
+                <artifactId>logstash-logback-encoder</artifactId>
+                <version>${logstash-logback.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.codehaus.janino</groupId>
+                <artifactId>janino</artifactId>
+                <version>${janino.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>

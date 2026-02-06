@@ -24,7 +24,7 @@
         </dependency>
         <dependency>
             <groupId>com.raisin</groupId>
-            <artifactId>raisin-ribbon-spring-boot-starter</artifactId>
+            <artifactId>raisin-loadbalancer-spring-boot-starter</artifactId>
         </dependency>
         <dependency>
             <groupId>com.raisin</groupId>

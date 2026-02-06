@@ -28,7 +28,7 @@
         </dependency>
         <dependency>
             <groupId>com.raisin</groupId>
-            <artifactId>raisin-ribbon-spring-boot-starter</artifactId>
+            <artifactId>raisin-loadbalancer-spring-boot-starter</artifactId>
         </dependency>
         <dependency>
             <groupId>com.raisin</groupId>
@@ -80,18 +80,10 @@
         <dependency>
             <groupId>net.logstash.logback</groupId>
             <artifactId>logstash-logback-encoder</artifactId>
-            <version>6.3</version>
-        </dependency>
-
-        <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-classic</artifactId>
-            <version>1.2.3</version>
         </dependency>
         <dependency>
             <groupId>org.codehaus.janino</groupId>
             <artifactId>janino</artifactId>
-            <version>3.1.0</version>
         </dependency>
     </dependencies>
 

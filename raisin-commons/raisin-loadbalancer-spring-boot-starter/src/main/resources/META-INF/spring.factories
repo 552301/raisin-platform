@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.raisin.common.lb.LbAutoConfigure,\
+com.raisin.common.lb.FeignAutoConfigure,\
+com.raisin.common.lb.RestTemplateAutoConfigure,\
+com.raisin.common.lb.filter.LbIsolationFilter,\
+com.raisin.common.lb.LbIsolationAutoConfigure
