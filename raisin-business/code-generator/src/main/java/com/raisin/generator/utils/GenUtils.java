@@ -18,15 +18,17 @@ import com.raisin.common.constant.CommonConstant;
 import com.raisin.generator.model.ColumnEntity;
 import com.raisin.generator.model.TableEntity;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.configuration.Configuration;
-import org.apache.commons.configuration.ConfigurationException;
-import org.apache.commons.configuration.PropertiesConfiguration;
-import org.apache.commons.lang.StringUtils;
-import org.apache.commons.lang.WordUtils;
+import org.apache.commons.configuration2.Configuration;
+import org.apache.commons.configuration2.PropertiesConfiguration;
+import org.apache.commons.configuration2.builder.FileBasedConfigurationBuilder;
+import org.apache.commons.configuration2.builder.fluent.Configurations;
+import org.apache.commons.configuration2.ex.ConfigurationException;
+import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.text.WordUtils;
 import org.apache.commons.io.IOUtils;
 import org.apache.velocity.Template;
 import org.apache.velocity.VelocityContext;
-import org.apache.velocity.app.Velocity;
+import org.apache.velocity.app.VelocityEngine;
 
 /**
  * 代码生成器工具类
@@ -117,8 +119,9 @@ public class GenUtils {
 
         //设置velocity资源加载器
         Properties prop = new Properties();
-        prop.put("file.resource.loader.class", "org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader");
-        Velocity.init(prop);
+        prop.put("resource.loader", "class");
+        prop.put("class.resource.loader.class", "org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader");
+        VelocityEngine engine = new VelocityEngine(prop);
         String mainPath = config.getString("mainPath");
         mainPath = StringUtils.isBlank(mainPath) ? "io.renren" : mainPath;
         //封装模板数据
@@ -146,7 +149,7 @@ public class GenUtils {
             try (
                     StringWriter sw = new StringWriter()
             ) {
-                Template tpl = Velocity.getTemplate(template, "UTF-8");
+                Template tpl = engine.getTemplate(template, "UTF-8");
                 tpl.merge(context, sw);
 
                 //添加到zip
@@ -182,7 +185,8 @@ public class GenUtils {
      */
     public static Configuration getConfig() {
         try {
-            return new PropertiesConfiguration("generator.properties");
+            Configurations configs = new Configurations();
+            return configs.properties("generator.properties");
         } catch (ConfigurationException e) {
             throw new RuntimeException("获取配置文件失败，", e);
         }

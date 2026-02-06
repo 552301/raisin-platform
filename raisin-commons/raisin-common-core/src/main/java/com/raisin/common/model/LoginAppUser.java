@@ -4,15 +4,13 @@ import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
 
-import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.authority.SimpleGrantedAuthority;
-import org.springframework.social.security.SocialUserDetails;
-import org.springframework.util.CollectionUtils;
-
 import com.fasterxml.jackson.annotation.JsonIgnore;
-
+import com.raisin.common.social.SocialUserDetails;
 import lombok.Getter;
 import lombok.Setter;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
+import org.springframework.util.CollectionUtils;
 
 /**
  * @author zlt

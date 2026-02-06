@@ -1,17 +1,15 @@
 package com.raisin.oauth.service.impl;
 
 import com.raisin.common.feign.UserService;
+import com.raisin.common.model.LoginAppUser;
+import com.raisin.common.social.SocialUserDetails;
+import com.raisin.common.social.SocialUserDetailsService;
 import com.raisin.oauth.service.ZltUserDetailsService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.authentication.DisabledException;
 import org.springframework.security.authentication.InternalAuthenticationServiceException;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.social.security.SocialUserDetails;
-import org.springframework.social.security.SocialUserDetailsService;
 import org.springframework.stereotype.Service;
-
-import com.raisin.common.model.LoginAppUser;
-
-import lombok.extern.slf4j.Slf4j;
 
 import javax.annotation.Resource;
 

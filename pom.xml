@@ -15,14 +15,11 @@
         <java.version>21</java.version>
         <commons-collections4.version>4.4</commons-collections4.version>
         <fastjson.version>2.0.43</fastjson.version>
-        <swagger.version>3.0.0</swagger.version>
-        <swagger.ui.version>1.8.7</swagger.ui.version>
-        <swagger.mg.ui.version>1.0.6</swagger.mg.ui.version>
-        <swagger.butler.version>2.0.1</swagger.butler.version>
+        <springdoc.version>2.3.0</springdoc.version>
         <jjwt.version>0.12.3</jjwt.version>
         <druid-starter>1.2.21</druid-starter>
         <jasypt.version>3.0.5</jasypt.version>
-        <sharding-sphere.version>3.1.0</sharding-sphere.version>
+        <sharding-sphere.version>5.5.0</sharding-sphere.version>
         <security-oauth2.version>2.3.5.RELEASE</security-oauth2.version>
         <security-jwt.version>1.0.9.RELEASE</security-jwt.version>
         <redisson.version>3.27.1</redisson.version>
@@ -34,16 +31,13 @@
         <easypoi.version>4.6.2</easypoi.version>
         <poi.version>5.2.5</poi.version>
         <spring-boot-admin.version>3.2.3</spring-boot-admin.version>
-        <velocity.version>1.7</velocity.version>
-        <commons-configuration.version>1.10</commons-configuration.version>
+        <velocity.version>2.3</velocity.version>
+        <commons-configuration.version>2.11.0</commons-configuration.version>
         <txlcn.version>5.0.2.RELEASE</txlcn.version>
         <fastdfs-client.version>1.26.5</fastdfs-client.version>
         <userAgent.version>1.21</userAgent.version>
-        <transmittable.version>2.11.0</transmittable.version>
-        <lettuce.version>5.1.8.RELEASE</lettuce.version>
+        <transmittable.version>2.14.2</transmittable.version>
         <banner.version>1.0.2</banner.version>
-        <commons-beanutils.version>1.9.4</commons-beanutils.version>
-        <spring-social-security.version>1.1.6.RELEASE</spring-social-security.version>
         <commons-io.version>2.15.1</commons-io.version>
         <servlet-api.version>6.0.0</servlet-api.version>
         <spring-cloud-alibaba-dependencies.version>2023.0.1.0</spring-cloud-alibaba-dependencies.version>
@@ -68,11 +62,6 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-collections4</artifactId>
             <version>${commons-collections4.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>commons-beanutils</groupId>
-            <artifactId>commons-beanutils</artifactId>
-            <version>${commons-beanutils.version}</version>
         </dependency>
         <dependency>
             <groupId>com.alibaba</groupId>
@@ -169,7 +158,7 @@
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>transmittable-thread-local</artifactId>
-                <version>2.14.0</version>
+                <version>${transmittable.version}</version>
             </dependency>
 
             <!-- Apache HttpClient -->
@@ -207,36 +196,11 @@
                 <artifactId>redisson</artifactId>
                 <version>${redisson.version}</version>
             </dependency>
-            <!-- swagger -->
+            <!-- OpenAPI 3.0 / Springdoc (替代已废弃的 Springfox Swagger) -->
             <dependency>
-                <groupId>io.springfox</groupId>
-                <artifactId>springfox-swagger2</artifactId>
-                <version>${swagger.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.springfox</groupId>
-                <artifactId>springfox-bean-validators</artifactId>
-                <version>${swagger.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.springfox</groupId>
-                <artifactId>springfox-swagger-ui</artifactId>
-                <version>${swagger.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.xiaoymin</groupId>
-                <artifactId>swagger-bootstrap-ui</artifactId>
-                <version>${swagger.ui.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.zyplayer</groupId>
-                <artifactId>swagger-mg-ui</artifactId>
-                <version>${swagger.mg.ui.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.zlt2000</groupId>
-                <artifactId>swagger-butler-core</artifactId>
-                <version>${swagger.butler.version}</version>
+                <groupId>org.springdoc</groupId>
+                <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+                <version>${springdoc.version}</version>
             </dependency>
             <!-- 验证码生成工具 -->
             <dependency>
@@ -289,12 +253,12 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.velocity</groupId>
-                <artifactId>velocity</artifactId>
+                <artifactId>velocity-engine-core</artifactId>
                 <version>${velocity.version}</version>
             </dependency>
             <dependency>
-                <groupId>commons-configuration</groupId>
-                <artifactId>commons-configuration</artifactId>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-configuration2</artifactId>
                 <version>${commons-configuration.version}</version>
             </dependency>
             <dependency>
@@ -313,8 +277,8 @@
                 <version>${txlcn.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.shardingsphere</groupId>
-                <artifactId>sharding-jdbc-spring-boot-starter</artifactId>
+                <groupId>org.apache.shardingsphere</groupId>
+                <artifactId>shardingsphere-jdbc-core</artifactId>
                 <version>${sharding-sphere.version}</version>
             </dependency>
             <dependency>
@@ -338,19 +302,9 @@
                 <version>${transmittable.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.lettuce</groupId>
-                <artifactId>lettuce-core</artifactId>
-                <version>${lettuce.version}</version>
-            </dependency>
-            <dependency>
                 <groupId>com.nepxion</groupId>
                 <artifactId>banner</artifactId>
                 <version>${banner.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.springframework.social</groupId>
-                <artifactId>spring-social-security</artifactId>
-                <version>${spring-social-security.version}</version>
             </dependency>
             <dependency>
                 <groupId>commons-io</groupId>

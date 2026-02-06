@@ -8,7 +8,7 @@
     </parent>
     <artifactId>sharding-jdbc-demo</artifactId>
     <description>sharding-jdbc分库分表demo</description>
-    
+
     <dependencies>
         <dependency>
             <groupId>com.raisin</groupId>
@@ -20,8 +20,8 @@
         </dependency>
 
         <dependency>
-            <groupId>io.shardingsphere</groupId>
-            <artifactId>sharding-jdbc-spring-boot-starter</artifactId>
+            <groupId>org.apache.shardingsphere</groupId>
+            <artifactId>shardingsphere-jdbc-core</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>

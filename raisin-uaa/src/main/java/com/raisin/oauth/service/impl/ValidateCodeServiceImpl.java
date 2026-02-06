@@ -9,7 +9,7 @@ import com.raisin.common.model.SysUser;
 import com.raisin.oauth.exception.ValidateCodeException;
 import com.raisin.oauth.service.IValidateCodeService;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.ServletRequestBindingException;
