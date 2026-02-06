@@ -138,14 +138,19 @@ raisin-platform -- 父项目，公共依赖
 
 ## 快速开始
 
+**📖 详细文档请查看：**
+
+- **[快速启动指南](docs/QUICK_START.md)** - 详细的环境配置和服务启动步骤
+- **[快速开发指南](docs/QUICK_DEVELOPMENT.md)** - 开发环境配置和新功能开发指导
+
 ### 环境要求
 - Java 8+
 - Maven 3.6+
 - MySQL 5.7+
 - Redis 3.2+
-- Nacos Server
+- Nacos Server（可选）
 
-### 启动步骤
+### 快速启动步骤
 
 1. **克隆项目**
 ```bash
@@ -156,27 +161,60 @@ cd raisin-platform
 2. **初始化数据库**
 ```bash
 # 执行数据库初始化脚本
-mysql -u root -p < sql/init.sql
+mysql -u root -p < raisin-doc/sql/oauth-center.sql
+mysql -u root -p < raisin-doc/sql/user-center.sql
+mysql -u root -p < raisin-doc/sql/file-center.sql
+# ... 更多SQL脚本
 ```
 
-3. **启动基础服务**
+3. **配置数据源（选择一种方式）**
+
+**方式一：使用环境变量**
 ```bash
-# 启动Nacos注册中心和配置中心
-cd raisin-register
-java -jar nacos-server.jar
+export ZLT_DATASOURCE_IP=localhost
+export ZLT_DATASOURCE_USERNAME=root
+export ZLT_DATASOURCE_PASSWORD=root
+```
+
+**方式二：修改配置文件**
+编辑各服务的 `application.yml`，修改数据库连接信息。
+
+4. **启动基础服务**
+```bash
+# 启动MySQL
+docker run -d --name raisin-mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root mysql:5.7
 
 # 启动Redis
-redis-server
+docker run -d --name raisin-redis -p 6379:6379 redis:6.2-alpine
+
+# 启动Nacos（可选）
+docker run -d --name raisin-nacos -p 8848:8848 -e MODE=standalone nacos/nacos-server:1.4.2
 ```
 
-4. **启动核心服务**
+5. **编译项目**
+```bash
+# 在项目根目录执行
+mvn clean install -DskipTests
+```
+
+6. **启动核心服务**
 ```bash
 # 按顺序启动服务
 cd raisin-uaa && mvn spring-boot:run
-cd raisin-gateway && mvn spring-boot:run
+cd raisin-gateway/sc-gateway && mvn spring-boot:run
 cd raisin-business/user-center && mvn spring-boot:run
-cd raisin-web && mvn spring-boot:run
+cd raisin-business/file-center && mvn spring-boot:run
 ```
+
+7. **访问服务**
+- 认证中心: http://localhost:8000/swagger-ui.html
+- API网关: http://localhost:9900
+- 用户中心: http://localhost:7000/swagger-ui.html
+- 文件中心: http://localhost:5000/swagger-ui.html
+- 监控中心: http://localhost:6500
+- 任务管理: http://localhost:8081/xxl-job-admin
+
+> 💡 **提示**: 更多详细的启动说明、配置选项和常见问题解决，请查看 [快速启动指南](docs/QUICK_START.md)
 
 ### 默认端口配置
 
@@ -197,36 +235,94 @@ cd raisin-web && mvn spring-boot:run
 
 ## 开发指南
 
-### 代码规范
-- 遵循阿里巴巴Java开发手册
-- 使用统一的项目结构和命名规范
-- 强制代码审查和静态检查
+**📖 完整开发文档请查看：[快速开发指南](docs/QUICK_DEVELOPMENT.md)**
 
-### 自定义Starter使用
+### 快速开发上手
+
+#### 1. 开发环境配置
+
+**推荐 IDE**: IntelliJ IDEA
+
+**必装插件**:
+- Lombok
+- MyBatis X
+- Maven Helper
+- Alibaba Java Coding Guidelines
+
+#### 2. 创建新服务
+
+```bash
+# 在 raisin-business 目录下创建新模块
+cd raisin-business
+mvn archetype:generate -DgroupId=com.raisin -DartifactId=your-service
+```
+
+#### 3. 使用自定义 Starter
 
 ```xml
-<!-- 在你的项目pom.xml中引入 -->
+<!-- 在你的项目 pom.xml 中引入 -->
+<dependency>
+    <groupId>com.raisin</groupId>
+    <artifactId>raisin-common-spring-boot-starter</artifactId>
+</dependency>
 <dependency>
     <groupId>com.raisin</groupId>
     <artifactId>raisin-db-spring-boot-starter</artifactId>
 </dependency>
+<dependency>
+    <groupId>com.raisin</groupId>
+    <artifactId>raisin-redis-spring-boot-starter</artifactId>
+</dependency>
+<dependency>
+    <groupId>com.raisin</groupId>
+    <artifactId>raisin-swagger2-spring-boot-starter</artifactId>
+</dependency>
+<dependency>
+    <groupId>com.raisin</groupId>
+    <artifactId>raisin-auth-client-spring-boot-starter</artifactId>
+</dependency>
 ```
 
-### 配置示例
+#### 4. 配置示例
 
 ```yaml
-# application.yml
+# bootstrap.yml
+server:
+  port: 7200
 spring:
   application:
     name: your-service-name
-  cloud:
-    nacos:
-      discovery:
-        server-addr: localhost:8848
-      config:
-        server-addr: localhost:8848
-        file-extension: yml
+
+# application.yml
+spring:
+  datasource:
+    url: jdbc:mysql://${zlt.datasource.ip:localhost}:3306/your_database
+    username: ${zlt.datasource.username:root}
+    password: ${zlt.datasource.password:root}
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*Mapper.xml
+  type-aliases-package: com.raisin.your.model
+
+zlt:
+  swagger:
+    enabled: true
+    title: 你的服务名称
+    description: 服务接口文档
+    version: 1.0
+    base-package: com.raisin.your.controller
 ```
+
+#### 5. 开发规范
+
+- 遵循阿里巴巴 Java 开发手册
+- 使用统一的项目结构和命名规范
+- 代码必须经过审查和静态检查
+- 所有 Service 方法必须加事务注解
+- Controller 接口必须有 Swagger 注解
+- 异常统一通过 GlobalExceptionHandler 处理
+
+更多详细内容请查看 **[快速开发指南](docs/QUICK_DEVELOPMENT.md)**
 
 ## 监控运维
 

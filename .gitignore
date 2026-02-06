@@ -1,0 +1,106 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# IDE - Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+.recommenders/
+*.launch
+
+# IDE - VSCode
+.vscode/
+*.code-workspace
+
+# IDE - NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Compiled class files
+*.class
+
+# Log files
+logs/
+*.log
+log/
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.swp
+*.swo
+*~
+*.tmp
+*.temp
+.*.sw?
+
+# Spring Boot
+spring-boot-*.log
+
+# Test coverage
+*.exec
+
+# Build artifacts
+build-output.log
+compile-output.log
+compile-errors.log
+build.log
+
+# Application specific
+application-*.yml
+!application-example.yml
+bootstrap-*.yml
+!bootstrap-example.yml
+
+# Node modules (if any frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database
+*.db
+*.sqlite
+*.h2.db
+
+# Redis dump
+dump.rdb
