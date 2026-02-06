@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://${zlt.datasource.ip}:3306/txlcn-demo?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull
+    url: jdbc:mysql://${zlt.datasource.ip}:3306/txlcn-demo?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=true&zeroDateTimeBehavior=convertToNull
     username: ${zlt.datasource.username}
     password: ${zlt.datasource.password}
 
@@ -14,6 +14,6 @@ tx-lcn:
   logger:
     enabled: true
     driver-class-name: com.mysql.cj.jdbc.Driver
-    jdbc-url: jdbc:mysql://${zlt.datasource.ip}:3306/tx_logger?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull
+    jdbc-url: jdbc:mysql://${zlt.datasource.ip}:3306/tx_logger?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=true&zeroDateTimeBehavior=convertToNull
     username: ${zlt.datasource.username}
     password: ${zlt.datasource.password}

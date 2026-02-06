@@ -1,6 +1,6 @@
 package com.rocketmq.demo.listener;
 
-import com.alibaba.fastjson.JSON;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.rocketmq.demo.model.Order;
 import com.rocketmq.demo.service.IOrderService;
 import org.apache.rocketmq.spring.annotation.RocketMQTransactionListener;

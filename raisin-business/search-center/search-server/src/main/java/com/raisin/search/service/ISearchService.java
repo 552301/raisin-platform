@@ -1,6 +1,7 @@
 package com.raisin.search.service;
 
-import com.alibaba.fastjson.JSONObject;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.raisin.common.model.PageResult;
 import com.raisin.search.model.SearchDto;
 

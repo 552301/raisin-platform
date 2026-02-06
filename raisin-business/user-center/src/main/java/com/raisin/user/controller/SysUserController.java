@@ -7,7 +7,8 @@ import java.util.Map;
 import java.util.Set;
 
 import cn.hutool.core.bean.BeanUtil;
-import com.alibaba.fastjson.JSONObject;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.raisin.common.annotation.LoginUser;
 import com.raisin.common.constant.CommonConstant;
 import com.raisin.common.model.*;

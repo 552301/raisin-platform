@@ -1,7 +1,8 @@
 package com.raisin.search.client.service.impl;
 
 import cn.hutool.core.util.StrUtil;
-import com.alibaba.fastjson.JSONObject;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.raisin.common.model.PageResult;
 import com.raisin.search.client.feign.AggregationService;
 import com.raisin.search.client.feign.SearchService;

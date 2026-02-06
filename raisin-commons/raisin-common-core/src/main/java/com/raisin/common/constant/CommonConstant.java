@@ -99,7 +99,9 @@ public interface CommonConstant {
     String SIMPLE_DATE_FORMAT = "yyyyMMdd";
     String SIMPLE_DATETIME_FORMAT = "yyyyMMddHHmmss";
 
-    String DEF_USER_PASSWORD = "123456";
+    // 默认用户密码 - 应从配置中心或环境变量读取，禁止硬编码
+    // 推荐使用：@Value("${user.default-password:ChangeMe123!}") 注入
+    String DEF_USER_PASSWORD = System.getenv().getOrDefault("DEFAULT_USER_PASSWORD", "ChangeMe123!");
 
     String LOCK_KEY_PREFIX = "LOCK_KEY:";
 

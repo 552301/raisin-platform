@@ -1,6 +1,7 @@
 package com.raisin.search.client.feign;
 
-import com.alibaba.fastjson.JSONObject;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.raisin.common.constant.ServiceNameConstants;
 import com.raisin.common.model.PageResult;
 import com.raisin.search.client.feign.fallback.SearchServiceFallbackFactory;
