@@ -1,0 +1,13 @@
+/home/engine/project/raisin-commons/raisin-ribbon-spring-boot-starter/src/main/java/com/raisin/common/ribbon/RestTemplateAutoConfigure.java
+/home/engine/project/raisin-commons/raisin-ribbon-spring-boot-starter/src/main/java/com/raisin/common/ribbon/config/FeignInterceptorConfig.java
+/home/engine/project/raisin-commons/raisin-ribbon-spring-boot-starter/src/main/java/com/raisin/common/ribbon/RibbonAutoConfigure.java
+/home/engine/project/raisin-commons/raisin-ribbon-spring-boot-starter/src/main/java/com/raisin/common/ribbon/FeignAutoConfigure.java
+/home/engine/project/raisin-commons/raisin-ribbon-spring-boot-starter/src/main/java/com/raisin/common/ribbon/annotation/EnableBaseFeignInterceptor.java
+/home/engine/project/raisin-commons/raisin-ribbon-spring-boot-starter/src/main/java/com/raisin/common/ribbon/config/RuleConfigure.java
+/home/engine/project/raisin-commons/raisin-ribbon-spring-boot-starter/src/main/java/com/raisin/common/ribbon/LbIsolationAutoConfigure.java
+/home/engine/project/raisin-commons/raisin-ribbon-spring-boot-starter/src/main/java/org/springframework/cloud/netflix/ribbon/DefaultPropertiesFactory.java
+/home/engine/project/raisin-commons/raisin-ribbon-spring-boot-starter/src/main/java/com/raisin/common/ribbon/config/FeignHttpInterceptorConfig.java
+/home/engine/project/raisin-commons/raisin-ribbon-spring-boot-starter/src/main/java/com/raisin/common/ribbon/rule/CustomIsolationRule.java
+/home/engine/project/raisin-commons/raisin-ribbon-spring-boot-starter/src/main/java/com/raisin/common/ribbon/config/RestTemplateProperties.java
+/home/engine/project/raisin-commons/raisin-ribbon-spring-boot-starter/src/main/java/com/raisin/common/ribbon/filter/LbIsolationFilter.java
+/home/engine/project/raisin-commons/raisin-ribbon-spring-boot-starter/src/main/java/com/raisin/common/ribbon/annotation/EnableFeignInterceptor.java

@@ -1,0 +1,7 @@
+com/raisin/common/swagger2/SwaggerAutoConfiguration.class
+META-INF/spring-configuration-metadata.json
+com/raisin/common/swagger2/SwaggerProperties$GlobalOperationParameter.class
+com/raisin/common/swagger2/SwaggerProperties$DocketInfo.class
+com/raisin/common/swagger2/Swagger2Configuration.class
+com/raisin/common/swagger2/SwaggerProperties$Contact.class
+com/raisin/common/swagger2/SwaggerProperties.class

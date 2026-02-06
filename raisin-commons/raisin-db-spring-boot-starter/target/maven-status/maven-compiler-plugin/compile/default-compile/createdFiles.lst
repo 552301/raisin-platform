@@ -1,0 +1,5 @@
+com/raisin/db/config/DefaultMybatisPlusConfig.class
+com/raisin/db/config/TenantAutoConfigure$1.class
+com/raisin/db/config/TenantAutoConfigure.class
+com/raisin/db/config/DateMetaObjectHandler.class
+com/raisin/db/mapper/SuperMapper.class
