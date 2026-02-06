@@ -1,0 +1,5 @@
+org/txlcn/demo/servicec/DemoMapper.class
+org/txlcn/demo/servicec/DemoController.class
+org/txlcn/demo/servicec/DemoService.class
+org/txlcn/demo/servicec/DemoServiceImpl.class
+org/txlcn/demo/ServiceCApplication.class

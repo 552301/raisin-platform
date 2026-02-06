@@ -1,0 +1,19 @@
+{
+  "groups": [
+    {
+      "name": "zlt.trace",
+      "type": "com.raisin.log.properties.TraceProperties",
+      "sourceType": "com.raisin.log.properties.TraceProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "zlt.trace.enable",
+      "type": "java.lang.Boolean",
+      "description": "是否开启日志链路追踪",
+      "sourceType": "com.raisin.log.properties.TraceProperties",
+      "defaultValue": false
+    }
+  ],
+  "hints": []
+}

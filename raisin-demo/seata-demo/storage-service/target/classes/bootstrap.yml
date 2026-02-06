@@ -1,0 +1,10 @@
+server:
+  port: 9092
+
+spring:
+  application:
+    name: storage-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 172.16.19.116:8848

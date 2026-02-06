@@ -1,0 +1,6 @@
+META-INF/spring-configuration-metadata.json
+org/slf4j/TtlMDCAdapter.class
+com/raisin/log/config/TtlMDCAdapterInitializer.class
+com/raisin/log/config/LogAutoConfigure.class
+com/raisin/log/properties/TraceProperties.class
+com/raisin/log/monitor/PointUtil.class

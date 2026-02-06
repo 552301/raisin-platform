@@ -1,0 +1,3 @@
+com/raisin/user/mapper/SysUserMapperTest.class
+com/raisin/user/service/SysUserServiceTest.class
+com/raisin/user/controller/SysUserControllerTest.class

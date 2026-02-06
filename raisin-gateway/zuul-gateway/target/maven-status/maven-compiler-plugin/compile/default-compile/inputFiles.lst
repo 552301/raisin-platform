@@ -1,0 +1,15 @@
+/home/engine/project/raisin-gateway/zuul-gateway/src/main/java/com/raisin/gateway/feign/MenuService.java
+/home/engine/project/raisin-gateway/zuul-gateway/src/main/java/com/raisin/gateway/filter/pre/RequestStatisticsFilter.java
+/home/engine/project/raisin-gateway/zuul-gateway/src/main/java/com/raisin/GatewayApp.java
+/home/engine/project/raisin-gateway/zuul-gateway/src/main/java/com/raisin/gateway/service/impl/PermissionServiceImpl.java
+/home/engine/project/raisin-gateway/zuul-gateway/src/main/java/com/raisin/gateway/config/ResourceServerConfiguration.java
+/home/engine/project/raisin-gateway/zuul-gateway/src/main/java/com/raisin/gateway/route/nacos/NacosDynRouteLocator.java
+/home/engine/project/raisin-gateway/zuul-gateway/src/main/java/com/raisin/gateway/filter/pre/UserInfoHeaderFilter.java
+/home/engine/project/raisin-gateway/zuul-gateway/src/main/java/com/raisin/gateway/config/AsycTaskExecutorConfig.java
+/home/engine/project/raisin-gateway/zuul-gateway/src/main/java/com/raisin/gateway/config/ZuulRouteEntity.java
+/home/engine/project/raisin-gateway/zuul-gateway/src/main/java/com/raisin/gateway/filter/pre/TraceFilter.java
+/home/engine/project/raisin-gateway/zuul-gateway/src/main/java/com/raisin/gateway/config/SwaggerConfig.java
+/home/engine/project/raisin-gateway/zuul-gateway/src/main/java/com/raisin/gateway/route/AbstractDynRouteLocator.java
+/home/engine/project/raisin-gateway/zuul-gateway/src/main/java/com/raisin/gateway/config/CorsConfigration.java
+/home/engine/project/raisin-gateway/zuul-gateway/src/main/java/com/raisin/gateway/config/DynamicZuulRouteConfig.java
+/home/engine/project/raisin-gateway/zuul-gateway/src/main/java/com/raisin/gateway/feign/fallback/MenuServiceFallbackFactory.java

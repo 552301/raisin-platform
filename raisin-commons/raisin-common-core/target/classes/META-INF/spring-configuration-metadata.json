@@ -1,0 +1,31 @@
+{
+  "groups": [
+    {
+      "name": "zlt.tenant",
+      "type": "com.raisin.common.properties.TenantProperties",
+      "sourceType": "com.raisin.common.properties.TenantProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "zlt.tenant.enable",
+      "type": "java.lang.Boolean",
+      "description": "是否开启多租户",
+      "sourceType": "com.raisin.common.properties.TenantProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "zlt.tenant.ignore-sqls",
+      "type": "java.util.List<java.lang.String>",
+      "description": "配置不进行多租户隔离的sql 需要配置mapper的全路径如：com.raisin.user.mapper.SysUserMapper.findList",
+      "sourceType": "com.raisin.common.properties.TenantProperties"
+    },
+    {
+      "name": "zlt.tenant.ignore-tables",
+      "type": "java.util.List<java.lang.String>",
+      "description": "配置不进行多租户隔离的表名",
+      "sourceType": "com.raisin.common.properties.TenantProperties"
+    }
+  ],
+  "hints": []
+}
